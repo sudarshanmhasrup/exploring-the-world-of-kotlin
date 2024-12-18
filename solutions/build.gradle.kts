@@ -5,3 +5,6 @@ plugins {
 dependencies {
 
 }
+
+// Customize build directory
+layout.buildDirectory.set(file("$rootDir/.build/solutions"))
