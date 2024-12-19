@@ -7,5 +7,9 @@ dependencies {
     testImplementation(libs.junit.jupiter.engine)
 }
 
+tasks.test {
+    useJUnitPlatform()
+}
+
 // Customize build directory
 layout.buildDirectory.set(file("$rootDir/.build/solutions"))
