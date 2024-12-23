@@ -8,7 +8,7 @@ class UsernameValidatorTest {
     private val usernameValidator = UsernameValidator()
 
     @Test
-    fun `validate username too short`() {
+    fun validateUsernameTest1() {
         val usernameInput = "a"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -16,7 +16,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username too long`() {
+    fun validateUsernameTest2() {
         val usernameInput = "a".repeat(65)
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -24,7 +24,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with invalid characters`() {
+    fun validateUsernameTest3() {
         val usernameInput = "sudarshan@mhasrup"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -32,7 +32,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username starting with dot`() {
+    fun validateUsernameTest4() {
         val usernameInput = ".username"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -40,7 +40,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username ending with underscore`() {
+    fun validateUsernameTest5() {
         val usernameInput = "username_"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -48,7 +48,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with consecutive dots`() {
+    fun validateUsernameTest6() {
         val usernameInput = "user..name"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -56,7 +56,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with valid format`() {
+    fun validateUsernameTest7() {
         val usernameInput = "sudarshan.mhasrup"
         val expectedResult = true
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -64,7 +64,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with numbers`() {
+    fun validateUsernameTest8() {
         val usernameInput = "user123"
         val expectedResult = true
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -72,7 +72,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with hyphen`() {
+    fun validateUsernameTest9() {
         val usernameInput = "user-name"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
@@ -80,7 +80,7 @@ class UsernameValidatorTest {
     }
 
     @Test
-    fun `validate username with mixed valid symbols`() {
+    fun validateUsernameTest10() {
         val usernameInput = "user_name-123"
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
