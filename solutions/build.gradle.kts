@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-
+    testImplementation(libs.junit.jupiter.api)
 }
 
 // Customize build directory for solutions module
