@@ -4,10 +4,16 @@ class UsernameValidator {
 
     // Function to validate username
     fun validateUsername(username: String): Boolean {
-        if (username.length < 3) {
+        if (username.length !in 6..60 || !username.first().isLetter() || !username.last().isLetterOrDigit()) {
             return false
         }
-
-        return false
+        for (i in username) {
+            if (i.isLetterOrDigit() || i == '.') {
+                continue
+            } else {
+                return false
+            }
+        }
+        return ".." !in username
     }
 }
