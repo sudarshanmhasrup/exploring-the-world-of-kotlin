@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     testImplementation(libs.junit.jupiter.api)
+    testImplementation(libs.junit.jupiter.engine)
 }
 
 // Customize build directory for solutions module
