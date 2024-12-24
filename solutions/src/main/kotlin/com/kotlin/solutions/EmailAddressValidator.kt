@@ -26,7 +26,7 @@ class EmailAddressValidator {
 
     // Function to validate second level domain name
     private fun validateSecondLevelDomainName(secondLevelDomainName: String): Boolean {
-        if (secondLevelDomainName.isEmpty() || !secondLevelDomainName.first().isLetterOrDigit() || !secondLevelDomainName.last().isLetterOrDigit()) {
+        if (secondLevelDomainName.isEmpty() || !secondLevelDomainName.first().isLetterOrDigit() || !secondLevelDomainName.last().isLetterOrDigit() || secondLevelDomainName.length !in 1..64) {
             return false
         }
 
@@ -43,7 +43,7 @@ class EmailAddressValidator {
 
     // Function to validate top level domain name
     private fun validateTopLevelDomainName(topLevelDomainName: String): Boolean {
-        if (topLevelDomainName.isEmpty() || !topLevelDomainName.first().isLetterOrDigit() || !topLevelDomainName.last().isLetter()) {
+        if (topLevelDomainName.isEmpty() || !topLevelDomainName.first().isLetterOrDigit() || !topLevelDomainName.last().isLetter() || topLevelDomainName.length !in 2..64) {
             return false
         }
         for (i in topLevelDomainName) {
