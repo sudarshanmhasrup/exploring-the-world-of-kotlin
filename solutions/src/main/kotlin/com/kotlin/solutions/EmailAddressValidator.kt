@@ -5,9 +5,15 @@ class EmailAddressValidator {
     private val emailUsernameValidator = EmailUsernameValidator()
     
     // Email address validator
-    fun emailAddressValidator(emailAddress: String): Boolean {
+    fun validateEmailAddress(emailAddress: String): Boolean {
 
         val splitEmailAddressParts = emailAddress.split("@")
+
+        if ("@@" in emailAddress || "@" !in emailAddress) {
+            return false
+        }
+
+        // Access email username and domain name out of split email address
         val emailUsername = splitEmailAddressParts[0]
         val domainNameAddress = splitEmailAddressParts[1]
 
@@ -18,6 +24,12 @@ class EmailAddressValidator {
     private fun domainNameValidator(domainNameAddress: String): Boolean {
 
         val spiltDomainName = domainNameAddress.split(".")
+
+        if (".." in domainNameAddress || "." !in domainNameAddress) {
+            return false
+        }
+
+        // Access SLD and TLD out of split domain name
         val secondLevelDomainName = spiltDomainName[0]
         val topLevelDomainName = spiltDomainName[1]
 
