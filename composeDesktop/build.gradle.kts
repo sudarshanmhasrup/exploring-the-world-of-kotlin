@@ -6,6 +6,7 @@ plugins {
 
 dependencies {
     implementation(compose.desktop.currentOs)
+    implementation(libs.androix.collection)
 }
 
 compose.desktop {
