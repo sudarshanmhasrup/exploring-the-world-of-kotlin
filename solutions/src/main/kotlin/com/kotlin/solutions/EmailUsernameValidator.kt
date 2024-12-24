@@ -18,9 +18,11 @@ class EmailUsernameValidator {
 
     // Function to validate username
     fun validateUsername(username: String): Boolean {
-        if (username.length !in 6..60 || !username.first().isLetter() || !username.last().isLetterOrDigit()) {
+
+        if (username.length !in 6..64 || !username.first().isLetter() || !username.last().isLetterOrDigit()) {
             return false
         }
+
         for (i in username) {
             if (i.isLetterOrDigit() || i == '.') {
                 continue
@@ -28,6 +30,7 @@ class EmailUsernameValidator {
                 return false
             }
         }
+
         return ".." !in username
     }
 }
