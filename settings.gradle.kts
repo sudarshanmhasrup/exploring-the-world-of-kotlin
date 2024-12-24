@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 }
 
 include(":solutions")
+include(":composeDesktop")
