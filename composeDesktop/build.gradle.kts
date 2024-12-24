@@ -7,3 +7,6 @@ plugins {
 dependencies {
     implementation(compose.desktop.currentOs)
 }
+
+// Customize build directory
+layout.buildDirectory.set(file("$rootDir/.build/composeDesktop"))
