@@ -1,6 +1,20 @@
 package com.kotlin.solutions
 
-class UsernameValidator {
+class EmailUsernameValidator {
+
+    // Function to format username
+    fun formatUsername(username: String): String {
+
+        val formattedUsername = mutableListOf<Char>()
+
+        for (i in username) {
+            if (i.isLetterOrDigit() || i == '.') {
+                formattedUsername.add(i)
+            }
+        }
+
+        return formattedUsername.joinToString("")
+    }
 
     // Function to validate username
     fun validateUsername(username: String): Boolean {

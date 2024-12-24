@@ -3,9 +3,9 @@ package com.kotlin.solutions
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class UsernameValidatorTest {
+class EmailUsernameValidatorTest {
 
-    private val usernameValidator = UsernameValidator()
+    private val usernameValidator = EmailUsernameValidator()
 
     @Test
     fun validateUsernameTest1() {
@@ -85,5 +85,29 @@ class UsernameValidatorTest {
         val expectedResult = false
         val actualResult = usernameValidator.validateUsername(usernameInput)
         assertEquals(expectedResult, actualResult, "Test failed for username: $usernameInput")
+    }
+
+    @Test
+    fun formatUsernameTest1() {
+        val usernameInput = "sudarshan@mhasrup"
+        val expectedResult = "sudarshanmhasrup"
+        val actualResult = usernameValidator.formatUsername(usernameInput)
+        assertEquals(expectedResult, actualResult, "Test to format username: $usernameInput")
+    }
+
+    @Test
+    fun formatUsernameTest2() {
+        val usernameInput = "sudarshan mhasrup"
+        val expectedResult = "sudarshanmhasrup"
+        val actualResult = usernameValidator.formatUsername(usernameInput)
+        assertEquals(expectedResult, actualResult, "Test to format username: $usernameInput")
+    }
+
+    @Test
+    fun formatUsernameTest3() {
+        val usernameInput = ".sudarshan-mhasrup"
+        val expectedResult = ".sudarshanmhasrup"
+        val actualResult = usernameValidator.formatUsername(usernameInput)
+        assertEquals(expectedResult, actualResult, "Test to format username: $usernameInput")
     }
 }
