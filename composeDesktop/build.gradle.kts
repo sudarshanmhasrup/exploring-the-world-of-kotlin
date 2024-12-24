@@ -8,5 +8,11 @@ dependencies {
     implementation(compose.desktop.currentOs)
 }
 
+compose.desktop {
+    application {
+        mainClass = "MainKt"
+    }
+}
+
 // Customize build directory
 layout.buildDirectory.set(file("$rootDir/.build/composeDesktop"))
