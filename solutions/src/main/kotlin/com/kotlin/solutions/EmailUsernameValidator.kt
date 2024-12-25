@@ -2,7 +2,7 @@ package com.kotlin.solutions
 
 class EmailUsernameValidator {
 
-    // Function to format username
+    // Function to format email address username
     fun formatUsername(username: String): String {
 
         val formattedUsername = mutableListOf<Char>()
@@ -16,7 +16,7 @@ class EmailUsernameValidator {
         return formattedUsername.joinToString("")
     }
 
-    // Function to validate username
+    // Function to validate email address username
     fun validateUsername(username: String): Boolean {
 
         if (username.length !in 6..64 || !username.first().isLetter() || !username.last().isLetterOrDigit()) {
