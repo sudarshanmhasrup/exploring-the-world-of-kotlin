@@ -4,12 +4,14 @@ junitJupiter = "5.11.4"
 junitPlatformLauncher = "1.11.4"
 jetbrainsCompose = "1.7.3"
 androixCollection = "1.4.5"
+viewModelCompose = "2.8.7"
 
 [libraries]
 junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junitJupiter" }
 junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junitJupiter" }
 junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version.ref = "junitPlatformLauncher" }
 androix-collection = { group = "androidx.collection", name = "collection", version.ref = "androixCollection" }
+lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "viewModelCompose" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
