@@ -10,6 +10,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.max
 import androidx.compose.ui.unit.sp
 
 @Composable
@@ -56,6 +57,7 @@ private fun emailAddressImageWithTitleAndDescription(modifier: Modifier = Modifi
             text = "Email Address Validator",
             textAlign = TextAlign.Center,
             modifier = modifier,
+            maxLines = 1,
             fontWeight = FontWeight.SemiBold,
             fontSize = 24.sp
         )
@@ -68,6 +70,7 @@ private fun emailAddressImageWithTitleAndDescription(modifier: Modifier = Modifi
             text = "Please enter an email address to check if it's a valid email address or not.",
             textAlign = TextAlign.Center,
             modifier = modifier,
+            maxLines = 1,
             fontWeight = FontWeight.Normal,
             fontSize = 16.sp
         )
@@ -106,6 +109,7 @@ private fun emailAddressTextFieldWithButton(modifier: Modifier = Modifier) {
             value = emailAddressInput,
             modifier = modifier,
             colors = textFieldColors,
+            singleLine = true,
             onValueChange = { emailAddressInput = it.lowercase() },
             label = {
                 Text(
