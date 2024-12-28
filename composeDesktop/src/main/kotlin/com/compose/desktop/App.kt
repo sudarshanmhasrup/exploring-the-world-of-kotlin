@@ -7,7 +7,6 @@ import androidx.compose.ui.window.WindowState
 import com.compose.desktop.view.emailAddressValidatorPage.emailAddressValidatorPage
 import kotlin.system.exitProcess
 
-
 // Lambda function to exit application
 val exitApp: () -> Unit = {
     exitProcess(0)
