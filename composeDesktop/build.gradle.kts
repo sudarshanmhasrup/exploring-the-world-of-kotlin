@@ -6,6 +6,7 @@ plugins {
 
 dependencies {
     implementation(compose.desktop.currentOs)
+    implementation(compose.runtime)
     implementation(libs.androix.collection)
     implementation(libs.lifecycle.viewmodel.compose)
 }
