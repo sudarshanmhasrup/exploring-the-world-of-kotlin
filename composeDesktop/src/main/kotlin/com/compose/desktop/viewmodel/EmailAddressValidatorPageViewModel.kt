@@ -6,7 +6,7 @@ import androidx.compose.runtime.remember
 
 class EmailAddressValidatorPageViewModel {
 
-    private val _emailAddress = remember { mutableStateOf("") }
+    private val _emailAddress = mutableStateOf("")
     val emailAddress: MutableState<String> = _emailAddress
 
     fun updateEmailAddressInput(value: String) {
