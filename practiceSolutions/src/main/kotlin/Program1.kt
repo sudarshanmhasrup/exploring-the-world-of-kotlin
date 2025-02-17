@@ -1,7 +1,12 @@
 /*
   Problem statement no: 01.
   Problem statement: Create a function that takes two numbers as arguments and returns their sum.
+  Modified version: True.
   Source: https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
+  
+  Constraints used on user input:
+  1) User input must be in the form of an integer only.
+  2) The user must be asked to re-enter the input until it's not a valid number.
 */
 
 // Solution
@@ -21,7 +26,7 @@ private fun getUserInputs(onUserInputReceived: (Int, Int) -> Unit) {
 
 private fun getUserInput(placeholder: String): Int {
     var userInput: Int? = null
-    // Read and convert user input to integer or throw and show error message
+    // Read and try converting user input to an integer; else show an error message.
     do {
         print(placeholder)
         userInput = try {
