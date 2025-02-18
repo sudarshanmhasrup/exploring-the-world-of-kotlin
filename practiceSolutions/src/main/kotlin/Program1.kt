@@ -1,3 +1,6 @@
+import util.getUserInput
+import java.util.logging.Logger
+
 /*
   Problem statement no: 01.
   Problem statement: Create a function that takes two numbers as arguments and returns their sum.
@@ -14,29 +17,24 @@ fun main() {
 }
 
 private fun getUserInputs(onUserInputReceived: (Int, Int) -> Unit) {
-    val firstNumber = getUserInput(placeholder = "Enter the first number: ")
-    val secondNumber = getUserInput(placeholder = "Enter the second number: ")
+    val userInputLogic: () -> Int? = { readln().toIntOrNull() }
+    val errorMessage = "Please enter a valid number."
+    val firstNumber = getUserInput(
+        placeholder = "Enter the first number: ",
+        errorMessage = errorMessage,
+        userInputLogic = userInputLogic
+    ) ?: 0
+    val secondNumber = getUserInput(
+        placeholder = "Enter the second number: ",
+        errorMessage = errorMessage,
+        userInputLogic = userInputLogic
+    ) ?: 0
     onUserInputReceived(firstNumber, secondNumber)
-}
-
-private fun getUserInput(placeholder: String): Int {
-    var userInput: Int? = null
-    // Read and convert user input to integer or throw and show error message
-    do {
-        print(placeholder)
-        userInput = try {
-            readln().toInt()
-        } catch (_: Exception) {
-            println("Please enter a valid number!")
-            null
-        }
-    } while (userInput == null)
-    return userInput
 }
 
 fun displayResult(firstNumber: Int, secondNumber: Int) {
     val result = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-    println("The addition of $firstNumber and $secondNumber is $result .")
+    println("The addition of $firstNumber and $secondNumber is $result.")
 }
 
 private fun addition(firstNumber: Int, secondNumber: Int): Int = firstNumber + secondNumber
