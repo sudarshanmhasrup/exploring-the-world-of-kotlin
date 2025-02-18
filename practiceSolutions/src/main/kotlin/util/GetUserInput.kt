@@ -1,5 +1,6 @@
 package util
 
+// Generic function to handle user input
 @Suppress("KotlinConstantConditions")
 fun <Any> getUserInput(placeholder: String, errorMessage: String, userInputLogic: () -> Any?): Any? {
     var userInput: Any?

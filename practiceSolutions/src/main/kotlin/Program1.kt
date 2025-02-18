@@ -1,5 +1,4 @@
 import util.getUserInput
-import java.util.logging.Logger
 
 /*
   Problem statement no: 01.
