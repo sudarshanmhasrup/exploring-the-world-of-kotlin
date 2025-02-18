@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 include(":practiceSolutions")
 include(":coreKotlin")
+include(":kotlinPlayground")
