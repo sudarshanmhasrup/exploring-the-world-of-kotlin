@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 
 include(":practiceSolutions")
+include(":coreKotlin")
