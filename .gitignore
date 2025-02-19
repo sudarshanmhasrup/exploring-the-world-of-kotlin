@@ -9,3 +9,6 @@
 
 # Build directory
 .build
+
+# Other files and folder
+kotlinPlayground/src/main/kotlin/com/kotlin/playground/KotlinFunGround.kt
