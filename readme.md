@@ -14,3 +14,5 @@ language features, lambdas, data types, use of OOJ, lists, and other core concep
 ### Practice problem statements
 1) Create a function that takes two numbers as arguments and returns their sum.
 2) Write a function that takes an integer minutes and converts it to seconds.
+3) Create a function that takes a number as an argument, increments the number by +1 and returns the
+   result.
