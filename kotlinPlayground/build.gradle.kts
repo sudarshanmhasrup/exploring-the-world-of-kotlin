@@ -14,3 +14,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
 }
+
+// Custom build directory
+layout.buildDirectory.set(file("$rootDir/.build/kotlinPlayground"))

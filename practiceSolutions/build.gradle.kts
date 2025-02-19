@@ -16,4 +16,4 @@ java {
 }
 
 // Custom build directory
-layout.buildDirectory.set(file("$rootDir/.build/practice solutions"))
+layout.buildDirectory.set(file("$rootDir/.build/practiceSolutions"))
