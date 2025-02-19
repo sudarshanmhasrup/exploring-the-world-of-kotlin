@@ -2,7 +2,11 @@ package util
 
 // Generic function to handle user input
 @Suppress("KotlinConstantConditions")
-fun <Any> getUserInput(placeholder: String, errorMessage: String, userInputLogic: () -> Any?): Any? {
+fun <Any> getUserInput(
+    placeholder: String,
+    errorMessage: String,
+    userInputLogic: () -> Any?
+): Any? {
     var userInput: Any?
     // Read and convert user input to required form or throw and show error message
     do {
