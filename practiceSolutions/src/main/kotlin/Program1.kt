@@ -3,6 +3,7 @@ import util.getUserInput
 /*
   Problem statement no: 01.
   Problem statement: Create a function that takes two numbers as arguments and returns their sum.
+  Modified: True.
   Source: https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
 */
 
@@ -31,7 +32,7 @@ private fun getUserInputs(onUserInputReceived: (Int, Int) -> Unit) {
     onUserInputReceived(firstNumber, secondNumber)
 }
 
-fun displayResult(firstNumber: Int, secondNumber: Int) {
+private fun displayResult(firstNumber: Int, secondNumber: Int) {
     val result = addition(firstNumber = firstNumber, secondNumber = secondNumber)
     println("The addition of $firstNumber and $secondNumber is $result.")
 }

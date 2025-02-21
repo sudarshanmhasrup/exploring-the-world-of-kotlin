@@ -3,6 +3,7 @@ import util.getUserInput
 /*
   Problem statement no: 01.
   Problem statement: Write a function that takes an integer minutes and converts it to seconds.
+  Modified: True.
   Source: https://edabit.com/challenge/8q54MKnRrm89pSLmW
 */
 
@@ -17,7 +18,7 @@ fun main() {
 }
 
 private fun display(minutes: Int) {
-    val minutesInSeconds = convertMinutesToSeconds(minutes)
+    val minutesInSeconds = convertMinutesToSeconds(minutes = minutes)
     val minutesSuffix = if (minutes == 1) "minute" else "minutes"
     val secondsSuffix = if (minutesInSeconds == 1) "second" else "seconds"
     println("$minutes $minutesSuffix in seconds: $minutesInSeconds $secondsSuffix.")
