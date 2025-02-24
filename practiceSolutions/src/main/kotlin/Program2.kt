@@ -9,12 +9,16 @@ import util.getUserInput
 
 // Solution
 fun main() {
+    askUserInput(onUserInputReceived = { display(minutes = it) })
+}
+
+private fun askUserInput(onUserInputReceived: (Int) -> Unit) {
     val userInput = getUserInput(
         placeholder = "Enter minutes in digit: ",
         errorMessage = "Please enter minutes in digit only!",
         userInputLogic = { readln().toIntOrNull() }
     ) ?: 0
-    display(minutes = userInput)
+    onUserInputReceived(userInput)
 }
 
 private fun display(minutes: Int) {
