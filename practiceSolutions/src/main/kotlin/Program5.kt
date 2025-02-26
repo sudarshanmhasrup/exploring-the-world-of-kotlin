@@ -22,7 +22,7 @@ private fun askUserAge(onUserInputReceived: (Int) -> Unit) {
 }
 
 private fun display(ageInYears: Int) {
-    println("You're ${convertAgeYearsToDays(ageInYears = ageInYears)} years old.")
+    println("You're ${convertAgeYearsToDays(ageInYears = ageInYears)} days old.")
 }
 
 private fun convertAgeYearsToDays(ageInYears: Int): Int = ageInYears * 365
