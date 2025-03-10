@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 }
 
 include(":tryingKotlin")
+include(":kotlinPlayground")
