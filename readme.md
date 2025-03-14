@@ -6,7 +6,7 @@ fully functional project, it was rather created to implement small features and 
 Kotlin to see what can be achieved using Kotlin.
 
 Everyone makes mistakes, and so do I. If you feel any mistakes in the way I write my code, implement
-logic, and structure my code, feel free to let me know about it. Send me a mail at: 
+logic, and structure my code, feel free to let me know about it. Send me an email at:
 [sudarshanmhasrup@gmail.com](mailto://sudarshanmhasrup@gmail.com)
 
 ### Me & Kotlin
