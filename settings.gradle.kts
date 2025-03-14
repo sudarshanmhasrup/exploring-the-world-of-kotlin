@@ -20,3 +20,4 @@ dependencyResolutionManagement {
 include(":tryingKotlin")
 include(":kotlinPlayground")
 include(":practiceSolutions")
+include(":kotlinMultiplatform")
