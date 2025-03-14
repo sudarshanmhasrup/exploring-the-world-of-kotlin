@@ -10,4 +10,12 @@ kotlin {
             jvmTarget = JvmTarget.JVM_11
         }
     }
+
+    sourceSets {
+        val commonMain by getting {
+            dependencies {
+
+            }
+        }
+    }
 }
