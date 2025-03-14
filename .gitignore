@@ -10,3 +10,6 @@ kotlinPlayground/src/main/kotlin/com/kotlin/playground/KotlinFunground.kt
 
 # Build folder
 .build
+
+# Local & application properties
+local.properties
