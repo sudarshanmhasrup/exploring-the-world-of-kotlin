@@ -6,6 +6,7 @@
 
 # Kotlin cache folder
 .kotlin
+kotlinPlayground/src/main/kotlin/com/kotlin/playground/KotlinFunground.kt
 
 # Build folder
 .build
