@@ -1,3 +1,4 @@
+import org.gradle.internal.declarativedsl.parsing.main
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -24,5 +25,11 @@ kotlin {
                 implementation(compose.desktop.currentOs)
             }
         }
+    }
+}
+
+compose.desktop {
+    application {
+        mainClass = "com.kotlin.multiplatform.MainKt"
     }
 }
