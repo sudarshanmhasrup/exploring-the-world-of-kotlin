@@ -1,5 +1,6 @@
 package com.kotlin.basics.arithmeticOperations
 
+@Suppress("SameParameterValue")
 private fun multiplication(firstNumber: Int, secondNumber: Int): Int {
     return firstNumber * secondNumber
 }

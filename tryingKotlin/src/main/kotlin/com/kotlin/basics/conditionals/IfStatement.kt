@@ -1,5 +1,6 @@
 package com.kotlin.basics.conditionals
 
+@Suppress("KotlinConstantConditions")
 fun main() {
     val age = 40
 
