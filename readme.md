@@ -6,7 +6,7 @@ fully functional project, it was rather created to implement small features and 
 Kotlin to see what can be achieved using Kotlin.
 
 Everyone makes mistakes, and so do I. If you feel any mistakes in the way I write my code, implement
-logic, and structure my code, feel free to let me know about it. Send me an email at:
+logic, and structure my code, feel free to let me know about it. Email me at:
 [sudarshanmhasrup@gmail.com](mailto://sudarshanmhasrup@gmail.com)
 
 ### Me & Kotlin
@@ -18,3 +18,9 @@ Kotlin, I never looked back.
 I love the fact that it's a multipurpose language, so I can build mobile apps & desktop apps with 
 one single language and codebase. Kotlin really has a very bright future ahead, and I'm glad I chose
 Kotlin as my primary language.
+
+### Project modules
+- `tryingKotlin`: This module contains the source code I created while learning the Kotlin programming language. 
+It includes the code I wrote while exploring programming concepts and Kotlin-specific features.
+- `practiceSolutions`: This module is dedicated to problem-solving in Kotlin. I created it primarily to deepen my 
+understanding of Kotlin syntax, programming concepts, and various challenges.
