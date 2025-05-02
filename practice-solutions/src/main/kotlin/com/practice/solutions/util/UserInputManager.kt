@@ -16,7 +16,7 @@ object UserInputManager {
                         readln().toInt()
                     }
 
-                    else -> {
+                    UserInputType.STRING -> {
                         readln()
                     }
                 }
