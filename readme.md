@@ -6,7 +6,8 @@ you have a deep understanding of the features a language offers, you’re better
 complex problems. That’s why I chose to start like a beginner and gradually progress to more
 challenging questions.
 
-1) Create a function that takes two numbers as arguments and returns their sum.
+1) Create a function that takes two numbers as arguments and returns their
+   sum. [View program](mailto:sudarshanmhasrup@gmail.com), [View test](mailto:sudarshanmhasrup@gmail.com).
 2) Write a function that takes an integer minutes and converts it to seconds.
 3) Create a function that takes a number as an argument, increments the number by +1 and returns the
    result.
