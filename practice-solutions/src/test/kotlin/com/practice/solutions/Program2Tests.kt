@@ -5,13 +5,13 @@ import kotlin.test.assertEquals
 
 class Program2Tests {
 
-        @Test
-        fun `should return zero seconds when given zero minutes`() {
-            val minutes = 0
-            val expectedResult = 0
-            val actualResult = minutesToSeconds(minutes = minutes)
-            assertEquals(expected = expectedResult, actual = actualResult)
-        }
+    @Test
+    fun `should return zero seconds when given zero minutes`() {
+        val minutes = 0
+        val expectedResult = 0
+        val actualResult = minutesToSeconds(minutes = minutes)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
 
     @Test
     fun `should return sixty seconds when given one minute`() {
