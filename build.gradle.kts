@@ -1,5 +1,5 @@
 plugins {
-
+    alias(libs.plugins.kotlin.compiler) apply false
 }
 
 // Custom build directory
