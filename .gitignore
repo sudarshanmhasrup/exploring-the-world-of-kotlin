@@ -9,3 +9,6 @@
 
 # Build directory
 .build
+
+# Local properties
+local.properties
