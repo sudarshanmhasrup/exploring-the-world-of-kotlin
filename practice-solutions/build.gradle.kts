@@ -5,7 +5,7 @@ plugins {
 }
 
 dependencies {
-    
+    testImplementation(libs.kotlin.test)
 }
 
 java {
