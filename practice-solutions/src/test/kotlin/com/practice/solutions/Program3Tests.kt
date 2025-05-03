@@ -44,4 +44,28 @@ class Program3Tests {
         val actualResult = incrementNumberByOne(number = input)
         assertEquals(expected = expectedResult, actual = actualResult)
     }
+
+    @Test
+    fun `should return Int_MIN plus 1 when given Int_MIN`() {
+        val input = Int.MIN_VALUE
+        val expectedResult = Int.MIN_VALUE + 1
+        val actualResult = incrementNumberByOne(number = input)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return -1 when given -2`() {
+        val input = -2
+        val expectedResult = -1
+        val actualResult = incrementNumberByOne(number = input)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return 2 when given 1`() {
+        val input = 1
+        val expectedResult = 2
+        val actualResult = incrementNumberByOne(number = input)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
 }

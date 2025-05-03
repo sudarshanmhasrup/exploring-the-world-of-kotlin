@@ -67,4 +67,40 @@ class Program1Tests {
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
         assertEquals(expected = expectedResult, actual = actualResult)
     }
+
+    @Test
+    fun `should overflow when adding max integer and one`() {
+        val firstNumber = Int.MAX_VALUE
+        val secondNumber = 1
+        val expectedResult = Int.MIN_VALUE // due to overflow
+        val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should underflow when adding min integer and negative one`() {
+        val firstNumber = Int.MIN_VALUE
+        val secondNumber = -1
+        val expectedResult = Int.MAX_VALUE // due to underflow
+        val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return double the value when adding a number to itself`() {
+        val firstNumber = 123
+        val secondNumber = 123
+        val expectedResult = 246
+        val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return same result when parameters are swapped`() {
+        val firstNumber = 10
+        val secondNumber = -20
+        val result1 = addition(firstNumber = firstNumber, secondNumber = secondNumber)
+        val result2 = addition(firstNumber = secondNumber, secondNumber = firstNumber)
+        assertEquals(expected = result1, actual = result2)
+    }
 }

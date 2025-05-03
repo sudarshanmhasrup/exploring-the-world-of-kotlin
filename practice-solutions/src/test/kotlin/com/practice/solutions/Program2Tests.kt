@@ -48,7 +48,39 @@ class Program2Tests {
     @Test
     fun `should return correct seconds when given Int MIN value`() {
         val minutes = Int.MIN_VALUE
-        val expectedResult = 0
+        val expectedResult = minutes * 60
+        val actualResult = minutesToSeconds(minutes = minutes)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return correct seconds when given just below overflow threshold`() {
+        val minutes = Int.MAX_VALUE / 60
+        val expectedResult = minutes * 60
+        val actualResult = minutesToSeconds(minutes = minutes)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should overflow when given just above overflow threshold`() {
+        val minutes = Int.MAX_VALUE / 60 + 1
+        val expectedResult = minutes * 60 // intentional overflow
+        val actualResult = minutesToSeconds(minutes = minutes)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return correct seconds when given just above zero`() {
+        val minutes = 1
+        val expectedResult = 60
+        val actualResult = minutesToSeconds(minutes = minutes)
+        assertEquals(expected = expectedResult, actual = actualResult)
+    }
+
+    @Test
+    fun `should return correct seconds when given just below zero`() {
+        val minutes = -1
+        val expectedResult = -60
         val actualResult = minutesToSeconds(minutes = minutes)
         assertEquals(expected = expectedResult, actual = actualResult)
     }
