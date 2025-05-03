@@ -40,5 +40,8 @@ private fun displayOutput(base: Double, height: Double) {
 }
 
 internal fun areaOfTriangle(base: Double, height: Double): Double {
+    if (base < 0 || height < 0) {
+        throw IllegalArgumentException("Base and height must be non-negative.")
+    }
     return (base * height) / 2
 }
