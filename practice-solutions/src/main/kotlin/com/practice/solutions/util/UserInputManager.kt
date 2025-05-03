@@ -16,6 +16,10 @@ object UserInputManager {
                         readln().toInt()
                     }
 
+                    UserInputType.DOUBLE -> {
+                        readln().toDouble()
+                    }
+
                     UserInputType.STRING -> {
                         readln()
                     }
