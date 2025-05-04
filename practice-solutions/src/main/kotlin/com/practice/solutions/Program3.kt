@@ -12,7 +12,7 @@ import com.practice.solutions.util.UserInputType
 
 fun main() {
     val number = getUserInput()
-    displayOuput(number = number)
+    displayOutput(number = number)
 }
 
 private fun getUserInput(): Int {
@@ -23,9 +23,11 @@ private fun getUserInput(): Int {
     ) as Int
 }
 
-private fun displayOuput(number: Int) {
+private fun displayOutput(number: Int) {
     val result = incrementNumberByOne(number = number)
     println("The number that comes after $number is $result.")
 }
 
-internal fun incrementNumberByOne(number: Int): Int = number + 1
+internal fun incrementNumberByOne(number: Int): Int {
+    return number + 1
+}
