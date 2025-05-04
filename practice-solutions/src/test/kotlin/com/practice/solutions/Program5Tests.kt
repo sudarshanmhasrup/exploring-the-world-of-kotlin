@@ -16,7 +16,7 @@ class Program5Tests {
     @Test
     fun `should return correct result for positive years`() {
         val years = 5
-        val expected = 1825 // 5 * 365
+        val expected = 1825
         val actual = calculateAgeInDays(years)
         assertEquals(expected, actual)
     }
