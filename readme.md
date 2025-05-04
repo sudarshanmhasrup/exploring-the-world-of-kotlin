@@ -37,6 +37,7 @@ challenging questions.
    result.
 4) Write a function that takes the base and height of a triangle and return its area.
 5) Create a function that takes the age in years and returns the age in days.
+6) Create a function that takes an array containing only numbers and return the first element.
 
 ### Thank you
 
