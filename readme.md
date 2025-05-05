@@ -33,11 +33,12 @@ challenging questions.
 
 1) Create a function that takes two numbers as arguments and returns their sum.
 2) Write a function that takes an integer minutes and converts it to seconds.
-3) Create a function that takes a number as an argument, increments the number by +1 and returns the
+3) Create a function that takes a number as an argument, increments the number by 1 and returns the
    result.
 4) Write a function that takes the base and height of a triangle and return its area.
 5) Create a function that takes the age in years and returns the age in days.
 6) Create a function that takes an array containing only numbers and return the first element.
+7) Create a function that takes voltage and current and returns the calculated power.
 
 ### Thank you
 
