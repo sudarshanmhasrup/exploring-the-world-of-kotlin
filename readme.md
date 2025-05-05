@@ -40,6 +40,8 @@ challenging questions.
 6) Create a function that takes an array containing only numbers and return the first element.
 7) Create a function that takes voltage and current and returns the calculated power.
 8) Write a function that converts hours into seconds.
+9) Create a function that finds the maximum range of a triangle's third edge, where the side lengths
+   are all integers.
 
 ### Thank you
 
