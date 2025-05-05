@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base app theme -->
     <style name="Theme.ComposeAppTheme" parent="android:Theme.Material.NoActionBar" />
 
     <!-- Custom splash screen theme: Light Mode -->
