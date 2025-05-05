@@ -29,3 +29,6 @@ android {
         compose = true
     }
 }
+
+// Custom build directory
+layout.buildDirectory.set(file("$rootDir/.build/androidApp"))
