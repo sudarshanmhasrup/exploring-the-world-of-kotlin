@@ -30,5 +30,9 @@ android {
     }
 }
 
+dependencies {
+    implementation(libs.activity.compose)
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/androidApp"))
