@@ -1,5 +1,6 @@
 package com.practice.solutions
 
+import com.practice.solutions.common.INVALID_INTEGER_INPUT_ERROR
 import com.practice.solutions.util.UserInputManager
 import com.practice.solutions.util.UserInputType
 
@@ -18,7 +19,7 @@ fun main() {
 private fun getUserInput(): Int {
     return UserInputManager.getUserInput(
         placeholder = "Enter a number",
-        error = "Invalid input! Please enter an integer value.",
+        error = INVALID_INTEGER_INPUT_ERROR,
         userInputType = UserInputType.INTEGER
     ) as Int
 }

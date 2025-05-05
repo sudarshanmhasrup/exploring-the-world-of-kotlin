@@ -1,5 +1,6 @@
 package com.practice.solutions
 
+import com.practice.solutions.common.INVALID_INTEGER_INPUT_ERROR
 import com.practice.solutions.util.UserInputManager
 import com.practice.solutions.util.UserInputType
 
@@ -15,10 +16,9 @@ fun main() {
 }
 
 private fun getUserInput(): Array<Int> {
-    val errorMessage = "Invalid input! Please enter an integer value."
     val arraySize = UserInputManager.getUserInput(
         placeholder = "Input the total number of elements you wish to store in the array",
-        error = errorMessage,
+        error = INVALID_INTEGER_INPUT_ERROR,
         userInputType = UserInputType.INTEGER
     ) as Int
 
@@ -28,7 +28,7 @@ private fun getUserInput(): Array<Int> {
     for (i in 0 until array.size) {
         array[i] = UserInputManager.getUserInput(
             placeholder = "Enter the value of element at index $i",
-            error = errorMessage,
+            error = INVALID_INTEGER_INPUT_ERROR,
             userInputType = UserInputType.INTEGER
         ) as Int
     }

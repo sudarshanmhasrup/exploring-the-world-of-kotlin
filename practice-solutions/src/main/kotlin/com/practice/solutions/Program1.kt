@@ -1,5 +1,6 @@
 package com.practice.solutions
 
+import com.practice.solutions.common.INVALID_INTEGER_INPUT_ERROR
 import com.practice.solutions.util.UserInputManager
 import com.practice.solutions.util.UserInputType
 
@@ -18,16 +19,14 @@ fun main() {
 }
 
 private fun getUserInput(onUserInputReceived: (Int, Int) -> Unit) {
-    val errorMessage = "Invalid input! Please enter an integer value."
-
     val firstNumber = UserInputManager.getUserInput(
         placeholder = "Enter the first number",
-        error = errorMessage,
+        error = INVALID_INTEGER_INPUT_ERROR,
         userInputType = UserInputType.INTEGER
     ) as Int
     val secondNumber = UserInputManager.getUserInput(
         placeholder = "Enter the second number",
-        error = errorMessage,
+        error = INVALID_INTEGER_INPUT_ERROR,
         userInputType = UserInputType.INTEGER
     ) as Int
 
