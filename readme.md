@@ -39,6 +39,7 @@ challenging questions.
 5) Create a function that takes the age in years and returns the age in days.
 6) Create a function that takes an array containing only numbers and return the first element.
 7) Create a function that takes voltage and current and returns the calculated power.
+8) Write a function that converts hours into seconds.
 
 ### Thank you
 
