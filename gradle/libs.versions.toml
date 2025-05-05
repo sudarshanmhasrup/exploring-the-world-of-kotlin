@@ -2,6 +2,14 @@
 kotlin = "2.1.20"
 androidGradlePlugin = "8.9.0"
 
+# Android app package information
+androidApp-applicationId = "com.cmp.android"
+androidApp-compileSdkVersion = "35"
+androidApp-targetSdkVersion = "35"
+androidApp-minSdkVersion = "30"
+androidApp-versionCode = "1"
+androidApp-versionName = "1.0.0-SNAPSHOT"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
