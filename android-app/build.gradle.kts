@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.core.splashscreen)
     implementation(libs.activity.compose)
 }
 
