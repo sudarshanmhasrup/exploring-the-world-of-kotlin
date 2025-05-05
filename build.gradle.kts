@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.compiler) apply false
+    alias(libs.plugins.kotlin.android) apply false
 }
 
 // Custom build directory
