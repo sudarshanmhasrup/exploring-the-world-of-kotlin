@@ -13,6 +13,10 @@ androidApp-minSdkVersion = "30"
 androidApp-versionCode = "1"
 androidApp-versionName = "1.0.0-SNAPSHOT"
 
+# Trying Kotlin module information
+tryingKotlin-groupId = "com.trying.kotlin"
+tryingKotlin-version = "1.0.0-SNAPSHOT"
+
 # Practice solutions module information
 practiceSolutions-groupId = "com.practice.solutions"
 practiceSolutions-version = "1.0.0-SNAPSHOT"
