@@ -4,6 +4,9 @@ plugins {
     alias(libs.plugins.kotlin.compiler)
 }
 
+group = libs.versions.tryingKotlin.groupId
+version = libs.versions.tryingKotlin.version
+
 java {
     targetCompatibility = JavaVersion.VERSION_11
     sourceCompatibility = JavaVersion.VERSION_11
@@ -11,10 +14,6 @@ java {
 
 kotlin.compilerOptions {
     jvmTarget = JvmTarget.JVM_11
-}
-
-tasks.test {
-    useJUnitPlatform()
 }
 
 // Custom build directory
