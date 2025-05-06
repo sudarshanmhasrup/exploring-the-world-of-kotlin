@@ -5,6 +5,8 @@ androidGradlePlugin = "8.9.2"
 composeMultiplatform = "1.8.0"
 activityCompose = "1.10.1"
 coreSplashscreen = "1.0.1"
+compose = "1.7.3"
+voyagerNavigator = "1.0.1"
 
 # Android app package information
 androidApp-applicationId = "com.cmp.android"
@@ -34,6 +36,8 @@ userOnboarding-version = "1.0.0-SNAPSHOT"
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "compose" }
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyagerNavigator" }
 
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
