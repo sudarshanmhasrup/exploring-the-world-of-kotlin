@@ -10,6 +10,7 @@ import com.practice.solutions.util.UserInputType
     Modified: True.
     Source: https://edabit.com/challenge/nhXofMMyrowMyr9Nv.
  */
+
 fun main() {
     getUserInput(
         onUserInputReceived = { side1Length, side2Length ->
