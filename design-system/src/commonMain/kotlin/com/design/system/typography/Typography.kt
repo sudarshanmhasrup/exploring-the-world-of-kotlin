@@ -1,0 +1,72 @@
+package com.design.system.typography
+
+import androidx.compose.runtime.Immutable
+import androidx.compose.ui.text.TextStyle
+
+@Immutable
+data class Typography(
+    // Regular variants
+    val displayLarge: TextStyle = TextStyle(),
+    val displayMedium: TextStyle = TextStyle(),
+    val displaySmall: TextStyle = TextStyle(),
+    val headlineLarge: TextStyle = TextStyle(),
+    val headlineMedium: TextStyle = TextStyle(),
+    val headlineSmall: TextStyle = TextStyle(),
+    val titleLarge: TextStyle = TextStyle(),
+    val titleMedium: TextStyle = TextStyle(),
+    val titleSmall: TextStyle = TextStyle(),
+    val labelLarge: TextStyle = TextStyle(),
+    val labelMedium: TextStyle = TextStyle(),
+    val labelSmall: TextStyle = TextStyle(),
+    val bodyLarge: TextStyle = TextStyle(),
+    val bodyMedium: TextStyle = TextStyle(),
+    val bodySmall: TextStyle = TextStyle(),
+    // Medium variant
+    val displayLargeMedium: TextStyle = TextStyle(),
+    val displayMediumMedium: TextStyle = TextStyle(),
+    val displaySmallMedium: TextStyle = TextStyle(),
+    val headlineLargeMedium: TextStyle = TextStyle(),
+    val headlineMediumMedium: TextStyle = TextStyle(),
+    val headlineSmallMedium: TextStyle = TextStyle(),
+    val titleLargeMedium: TextStyle = TextStyle(),
+    val titleMediumMedium: TextStyle = TextStyle(),
+    val titleSmallMedium: TextStyle = TextStyle(),
+    val labelLargeMedium: TextStyle = TextStyle(),
+    val labelMediumMedium: TextStyle = TextStyle(),
+    val labelSmallMedium: TextStyle = TextStyle(),
+    val bodyLargeMedium: TextStyle = TextStyle(),
+    val bodyMediumMedium: TextStyle = TextStyle(),
+    val bodySmallMedium: TextStyle = TextStyle(),
+    // Semi bold variant
+    val displayLargeSemiBold: TextStyle = TextStyle(),
+    val displayMediumSemiBold: TextStyle = TextStyle(),
+    val displaySmallSemiBold: TextStyle = TextStyle(),
+    val headlineLargeSemiBold: TextStyle = TextStyle(),
+    val headlineMediumSemiBold: TextStyle = TextStyle(),
+    val headlineSmallSemiBold: TextStyle = TextStyle(),
+    val titleLargeSemiBold: TextStyle = TextStyle(),
+    val titleMediumSemiBold: TextStyle = TextStyle(),
+    val titleSmallSemiBold: TextStyle = TextStyle(),
+    val labelLargeSemiBold: TextStyle = TextStyle(),
+    val labelMediumSemiBold: TextStyle = TextStyle(),
+    val labelSmallSemiBold: TextStyle = TextStyle(),
+    val bodyLargeSemiBold: TextStyle = TextStyle(),
+    val bodyMediumSemiBold: TextStyle = TextStyle(),
+    val bodySmallSemiBold: TextStyle = TextStyle(),
+    // Bold variant
+    val displayLargeBold: TextStyle = TextStyle(),
+    val displayMediumBold: TextStyle = TextStyle(),
+    val displaySmallBold: TextStyle = TextStyle(),
+    val headlineLargeBold: TextStyle = TextStyle(),
+    val headlineMediumBold: TextStyle = TextStyle(),
+    val headlineSmallBold: TextStyle = TextStyle(),
+    val titleLargeBold: TextStyle = TextStyle(),
+    val titleMediumBold: TextStyle = TextStyle(),
+    val titleSmallBold: TextStyle = TextStyle(),
+    val labelLargeBold: TextStyle = TextStyle(),
+    val labelMediumBold: TextStyle = TextStyle(),
+    val labelSmallBold: TextStyle = TextStyle(),
+    val bodyLargeBold: TextStyle = TextStyle(),
+    val bodyMediumBold: TextStyle = TextStyle(),
+    val bodySmallBold: TextStyle = TextStyle()
+)
