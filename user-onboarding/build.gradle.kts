@@ -20,7 +20,6 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-//            implementation(libs)
             implementation(libs.voyager.navigator)
             implementation(libs.compose.foundation)
             implementation(libs.compose.ui)
