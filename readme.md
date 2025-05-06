@@ -22,6 +22,8 @@ of all the available modules in this project along with their respective uses.
 - `practice-solutions`\ - This module is dedicated to problem-solving in Kotlin. I created it
   primarily to deepen my understanding of Kotlin syntax, programming concepts, and various
   challenges.
+- `android-app`\ - This is a regular Android app module, which consumes Android framework-generated
+  by Kotlin Multiplatform.
 
 ### Practice solutions
 
