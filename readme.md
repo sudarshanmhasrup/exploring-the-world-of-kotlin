@@ -42,6 +42,7 @@ challenging questions.
 8) Write a function that converts hours into seconds.
 9) Create a function that finds the maximum range of a triangle's third edge, where the side lengths
    are all integers.
+10) Create a function which returns the reminder from two numbers.
 
 ### Thank you
 
