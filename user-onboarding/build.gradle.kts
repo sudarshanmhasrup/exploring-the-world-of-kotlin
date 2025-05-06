@@ -2,3 +2,14 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
 }
+
+kotlin {
+    // Declaring dummy targets to avoid build warnings
+    jvm("desktop")
+
+    androidTarget()
+
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
+}
