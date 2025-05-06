@@ -17,5 +17,10 @@ kotlin {
     iosSimulatorArm64()
 }
 
+android {
+    namespace = libs.versions.userOnboarding.groupId.get()
+    compileSdk = libs.versions.androidApp.compileSdkVersion.get().toInt()
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/userOnboarding"))
