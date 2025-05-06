@@ -24,6 +24,8 @@ of all the available modules in this project along with their respective uses.
   challenges.
 - `android-app`\ - This is a regular Android app module, which consumes Android framework-generated
   by Kotlin Multiplatform.
+- `design-system`\ - This module acts as a library for the project. Since the project has a custom
+    design system implementation, all the necessary theming APIs are provided by this module.
 
 ### Practice solutions
 
