@@ -33,3 +33,4 @@ dependencyResolutionManagement {
 include(":trying-kotlin")
 include(":practice-solutions")
 include(":android-app")
+include(":user-onboarding")
