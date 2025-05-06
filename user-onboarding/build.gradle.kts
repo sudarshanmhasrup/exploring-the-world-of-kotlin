@@ -21,9 +21,9 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(libs.voyager.navigator)
-            implementation(libs.compose.resources)
-            implementation(libs.compose.foundation)
-            implementation(libs.compose.ui)
+            implementation(libs.compose.multiplatform.resources)
+            implementation(libs.compose.multiplatform.foundation)
+            implementation(libs.compose.multiplatform.ui)
         }
     }
 }
