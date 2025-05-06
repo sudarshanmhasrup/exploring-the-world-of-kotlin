@@ -5,8 +5,8 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
-group = libs.versions.userOnboarding.groupId
-version = libs.versions.userOnboarding.version
+group = libs.versions.userOnboarding.groupId.get()
+version = libs.versions.userOnboarding.version.get()
 
 kotlin {
     // Declaring dummy targets to avoid build warnings
