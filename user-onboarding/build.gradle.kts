@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
+group = libs.versions.userOnboarding.groupId
+version = libs.versions.userOnboarding.version
+
 kotlin {
     // Declaring dummy targets to avoid build warnings
     jvm("desktop")
