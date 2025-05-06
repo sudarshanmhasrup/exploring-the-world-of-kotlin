@@ -4,8 +4,8 @@ plugins {
     alias(libs.plugins.kotlin.compiler)
 }
 
-group = libs.versions.practiceSolutions.groupId
-version = libs.versions.practiceSolutions.version
+group = libs.versions.practiceSolutions.groupId.get()
+version = libs.versions.practiceSolutions.version.get()
 
 dependencies {
     testImplementation(libs.kotlin.test)
