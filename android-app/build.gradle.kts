@@ -4,8 +4,8 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
-group = libs.versions.androidApp.groupId
-version = libs.versions.androidApp.version
+group = libs.versions.androidApp.groupId.get()
+version = libs.versions.androidApp.version.get()
 
 android {
     namespace = libs.versions.androidApp.applicationId.get()
