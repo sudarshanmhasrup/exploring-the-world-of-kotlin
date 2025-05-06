@@ -20,6 +20,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation("org.jetbrains.compose.foundation")
             implementation(libs.voyager.navigator)
             implementation(libs.ui)
         }
