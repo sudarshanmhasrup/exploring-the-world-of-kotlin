@@ -4,8 +4,8 @@ plugins {
     alias(libs.plugins.kotlin.compiler)
 }
 
-group = libs.versions.tryingKotlin.groupId
-version = libs.versions.tryingKotlin.version
+group = libs.versions.tryingKotlin.groupId.get()
+version = libs.versions.tryingKotlin.version.get()
 
 java {
     targetCompatibility = JavaVersion.VERSION_11
