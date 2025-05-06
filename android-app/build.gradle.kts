@@ -8,8 +8,8 @@ group = libs.versions.androidApp.groupId
 version = libs.versions.androidApp.version
 
 android {
-    compileSdk = libs.versions.androidApp.compileSdkVersion.get().toInt()
     namespace = libs.versions.androidApp.applicationId.get()
+    compileSdk = libs.versions.androidApp.compileSdkVersion.get().toInt()
 
     defaultConfig {
         applicationId = libs.versions.androidApp.applicationId.get()
