@@ -13,3 +13,6 @@ kotlin {
     iosArm64()
     iosSimulatorArm64()
 }
+
+// Custom build directory
+layout.buildDirectory.set(file("$rootDir/.build/userOnboarding"))
