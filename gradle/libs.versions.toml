@@ -27,6 +27,10 @@ practiceSolutions-version = "1.0.0-SNAPSHOT"
 androidApp-groupId = "com.cmp.android"
 androidApp-version = "1.0.0-SNAPSHOT"
 
+# Compose app module information
+composeApp-groupId = "com.compose.app"
+composeApp-version = "1.0.0-SNAPSHOT"
+
 # Design system module
 designSystem-groupId = "com.design.system"
 designSystem-version = "1.0.0-SNAPSHOT"
