@@ -3,6 +3,7 @@ package com.design.system.theme
 import androidx.compose.runtime.Composable
 import com.design.system.api.ComposeAppTheme
 import com.design.system.colorScheme.Colors
+import com.design.system.platform.Platform
 
 private val lightColorScheme = Colors(
     backgroundColor = backgroundColorLight,
@@ -16,6 +17,7 @@ private val darkColorScheme = Colors()
 
 @Composable
 fun CmpAppTheme(
+    platform: Platform,
     isDarkMode: Boolean = false,
     content: @Composable () -> Unit
 ) {
@@ -24,6 +26,7 @@ fun CmpAppTheme(
     ComposeAppTheme(
         colors = colorScheme,
         typography = typography,
+        platform = platform,
         content = content
     )
 }
