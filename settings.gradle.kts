@@ -33,6 +33,7 @@ dependencyResolutionManagement {
 include(":trying-kotlin")
 include(":practice-solutions")
 include(":android-app")
+include(":desktop-app")
 include(":compose-app")
 include(":design-system")
 include(":platform-apis")
