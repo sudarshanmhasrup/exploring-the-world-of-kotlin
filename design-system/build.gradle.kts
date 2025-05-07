@@ -22,6 +22,7 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.compose.multiplatform.resources)
             implementation(libs.compose.multiplatform.ui)
+            implementation(project(":platform-apis"))
         }
     }
 }
