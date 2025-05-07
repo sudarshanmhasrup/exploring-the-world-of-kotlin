@@ -20,6 +20,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation(libs.compose.multiplatform.resources)
             implementation(libs.compose.multiplatform.ui)
         }
     }
