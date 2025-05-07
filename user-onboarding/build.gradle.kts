@@ -25,6 +25,7 @@ kotlin {
             implementation(libs.compose.multiplatform.foundation)
             implementation(libs.compose.multiplatform.ui)
             implementation(project(":design-system"))
+            implementation(project(":platform-apis"))
         }
     }
 }
