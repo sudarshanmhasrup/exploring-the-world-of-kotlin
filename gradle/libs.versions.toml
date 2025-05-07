@@ -35,6 +35,10 @@ composeApp-version = "1.0.0-SNAPSHOT"
 designSystem-groupId = "com.design.system"
 designSystem-version = "1.0.0-SNAPSHOT"
 
+# Platform APIs module
+platformApis-groupId = "com.platform.apis"
+platformApis-version = "1.0.0-SNAPSHOT"
+
 # User onboarding module information
 userOnboarding-groupId = "com.user.onboarding"
 userOnboarding-version = "1.0.0-SNAPSHOT"
