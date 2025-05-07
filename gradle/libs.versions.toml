@@ -24,8 +24,12 @@ practiceSolutions-groupId = "com.practice.solutions"
 practiceSolutions-version = "1.0.0-SNAPSHOT"
 
 # Android app module information
-androidApp-groupId = "com.cmp.android"
+androidApp-groupId = "com.compose.android"
 androidApp-version = "1.0.0-SNAPSHOT"
+
+# Desktop app module
+dekstopApp-groupId = "com.compose.desktop"
+dekstopApp-version = "1.0.0-SNAPSHOT"
 
 # Compose app module information
 composeApp-groupId = "com.compose.app"
