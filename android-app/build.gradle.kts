@@ -34,6 +34,7 @@ android {
 dependencies {
     implementation(libs.core.splashscreen)
     implementation(libs.activity.compose)
+    implementation(project(":compose-app"))
 }
 
 // Custom build directory
