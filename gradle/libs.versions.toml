@@ -39,6 +39,10 @@ composeApp-version = "1.0.0-SNAPSHOT"
 designSystem-groupId = "com.design.system"
 designSystem-version = "1.0.0-SNAPSHOT"
 
+# Shared components module
+sharedComponents-groupId = "com.shared.components"
+sharedComponents-version = "1.0.0-SNAPSHOT"
+
 # Platform APIs module
 platformApis-groupId = "com.platform.apis"
 platformApis-version = "1.0.0-SNAPSHOT"
