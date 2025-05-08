@@ -124,7 +124,10 @@ class LandingPage(private val modifier: Modifier = Modifier) : Screen {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.landingPageButtonsRowModifier()
             ) {
-                Row(horizontalArrangement = Arrangement.Center, modifier = Modifier.fillMaxWidth()) {
+                Row(
+                    horizontalArrangement = Arrangement.Center,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
                     Buttons(hasSpace = true)
                 }
             }
