@@ -1,4 +1,4 @@
-package com.user.onboarding.presentation.pages
+package com.user.onboarding.presentation.pages.landingPage
 
 import cafe.adriel.voyager.core.model.ScreenModel
 import kotlinx.coroutines.flow.MutableStateFlow
