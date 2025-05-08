@@ -20,11 +20,13 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation(libs.voyager.screenmodel)
             implementation(libs.voyager.navigator)
             implementation(libs.compose.multiplatform.resources)
             implementation(libs.compose.multiplatform.foundation)
             implementation(libs.compose.multiplatform.ui)
             implementation(project(":design-system"))
+            implementation(project(":shared-components"))
             implementation(project(":platform-apis"))
         }
     }
