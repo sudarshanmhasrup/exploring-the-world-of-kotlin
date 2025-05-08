@@ -6,6 +6,9 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
+group = libs.versions.dekstopApp.groupId.get()
+version = libs.versions.dekstopApp.version.get()
+
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation(project(":compose-app"))
