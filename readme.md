@@ -29,6 +29,9 @@ of all the available modules in this project along with their respective uses.
   desktop apps using Kotlin Multiplatform.
 - `design-system`\ - This module acts as a library for the project. Since the project has a custom
   design system implementation, all the necessary theming APIs are provided by this module.
+- `shared-components`\ - There are so many components that are commonly used across all modules,
+  such as `Buttons` and `TextFields`. This module centralizes their declaration and allows all other
+  modules to use these shared components.
 - `platform-apis`\ - This module module exposes platform-specific APIs to all modules. It contains
   all required logic for managing platform-specific logic.
 
