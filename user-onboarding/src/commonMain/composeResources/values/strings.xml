@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="null_text">NA</string>
+    <string name="landing_page_greeting_text_web_or_desktop">Hello Developer! How you doing?</string>
     <string name="landing_page_greeting_text_non_web_or_desktop">Hello Developer!</string>
     <string name="landing_page_message_text">I'm referring to you as a developer because if you've successfully compiled and installed this %1$s on your %2$s, then you're most likely a developer. I have so much to say, but I won't take up much of your time. I just want to say thank you so much! If you'd like to support my work, all you have to do is star the repository on GitHub. Enjoy! </string>
+    <string name="get_started_button_label">Get Started</string>
+    <string name="view_project_on_github_button_label">View Project on GitHub</string>
 </resources>
