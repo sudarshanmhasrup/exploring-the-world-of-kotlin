@@ -12,3 +12,6 @@
 
 # Local properties
 local.properties
+
+# Others
+kotlin-playground/src/main/kotlin/com/kotlin/playground/KotlinFunGround.kt
