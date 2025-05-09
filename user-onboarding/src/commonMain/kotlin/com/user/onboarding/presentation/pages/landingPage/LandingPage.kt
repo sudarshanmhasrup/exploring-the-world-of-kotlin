@@ -16,8 +16,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -47,19 +47,28 @@ class LandingPage(private val modifier: Modifier = Modifier) : Screen {
     private var greetingTextStyle = TextStyle()
     private var messageTextStyle = TextStyle()
 
+    private val mobilePlatforms = listOf(DevicePlatform.IOS, DevicePlatform.ANDROID)
+
     @Composable
     override fun Content() {
         Initialize()
 
+        val density = LocalDensity.current
         val landingPageScreenModel = rememberScreenModel { LandingPageScreenModel() }
         var landingPageUiState = landingPageScreenModel.landingPageUiState.collectAsState()
         val landingPageScreenWidth = landingPageUiState.value.landingPageWidth
 
-        val backgroundContainerModifier = modifier.onGloballyPositioned {
-            landingPageScreenModel.updateLandingPageScreenWidth(width = it.size.width.toDouble())
-        }.onSizeChanged {
-            landingPageScreenModel.updateLandingPageScreenWidth(width = it.width.toDouble())
-        }
+        val currentPlatform = ComposeAppTheme.platform.currentPlatform
+
+        val backgroundContainerModifier = modifier
+            .onSizeChanged {
+                val width = if (currentPlatform in mobilePlatforms) {
+                    with(density) { it.width.toDp().value.toDouble() }
+                } else {
+                    it.width.toDouble()
+                }
+                landingPageScreenModel.updateLandingPageScreenWidth(width = width)
+            }
 
         // Change greeting text based on screen size
         HandleGreetingMessageText(landingPageScreenWidth = landingPageScreenWidth.toInt())
@@ -68,14 +77,13 @@ class LandingPage(private val modifier: Modifier = Modifier) : Screen {
             if (landingPageScreenWidth.toInt() < 480) {
                 LandingPageImage(modifier = Modifier.landingPageImageModifier())
             }
+
             GreetingAndMessage(
                 modifier = Modifier.landingPageGreetingAndMessageModifier(
                     width = landingPageScreenWidth
                 )
             )
-            LandingPageButtons(
-                landingPageScreenWidth = landingPageScreenWidth.toInt()
-            )
+            LandingPageButtons(landingPageScreenWidth = landingPageScreenWidth.toInt())
         }
     }
 
