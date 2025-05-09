@@ -2,23 +2,27 @@ package com.user.onboarding.extensions
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
-@Composable
-internal fun Modifier.landingPageImageModifier(): Modifier {
-    return this.fillMaxWidth().padding(all = 20.dp)
+internal fun Modifier.selectAppThemePageTitleModifier(): Modifier {
+    return this
+        .fillMaxWidth()
+        .padding(start = 20.dp, end = 20.dp, top = 40.dp, bottom = 20.dp)
 }
 
-@Composable
+internal fun Modifier.landingPageImageModifier(): Modifier {
+    return this
+        .fillMaxWidth()
+        .padding(all = 20.dp)
+}
+
 internal fun Modifier.landingPageGreetingAndMessageModifier(width: Double): Modifier {
     return this
         .fillMaxWidth()
         .landingPageGreetingPadding(width = width)
 }
 
-@Composable
 internal fun Modifier.landingPageGreetingPadding(width: Double): Modifier {
     val widthInNumber = width.toInt()
     return when {
@@ -39,14 +43,12 @@ internal fun Modifier.landingPageGreetingPadding(width: Double): Modifier {
     }
 }
 
-@Composable
 internal fun Modifier.landingPageButtonsColumnModifier(): Modifier {
     return this
         .fillMaxWidth()
         .padding(all = 20.dp)
 }
 
-@Composable
 internal fun Modifier.landingPageButtonsRowModifier(): Modifier {
     return this
         .fillMaxWidth()
