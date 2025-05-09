@@ -30,6 +30,7 @@ dependencyResolutionManagement {
     }
 }
 
+include(":kotlin-playground")
 include(":trying-kotlin")
 include(":practice-solutions")
 include(":android-app")
