@@ -29,7 +29,7 @@ kotlin {
 }
 
 android {
-    namespace = libs.versions.userOnboarding.groupId.get()
+    namespace = libs.versions.sharedComponents.groupId.get()
     compileSdk = libs.versions.androidApp.compileSdkVersion.get().toInt()
 }
 
