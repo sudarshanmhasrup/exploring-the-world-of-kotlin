@@ -17,9 +17,11 @@ androidApp-compileSdkVersion = "35"
 androidApp-targetSdkVersion = "35"
 androidApp-minSdkVersion = "30"
 androidApp-versionCode = "1"
+androidApp-versionName = "1.0.0-SNAPSHOT"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
