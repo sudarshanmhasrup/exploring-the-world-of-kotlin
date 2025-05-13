@@ -31,3 +31,4 @@ dependencyResolutionManagement {
 }
 
 include(":trying-kotlin")
+include(":practice-solutions")
