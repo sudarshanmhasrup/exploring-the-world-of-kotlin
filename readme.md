@@ -11,5 +11,7 @@ Kotlin as well as general programming languages.
 3) Val vs. Var in Kotlin: This topic covers the concept of immutable vs. mutable variables in Kotlin.
 4) Type inference: This topic covers how we can make our variable declarations more concise without defining data types
    of variables.
-5) Data types: This topic covers the use of all basic data types offered by Kotlin: String, Integer, Double, Boolean,
-   etc.
+5) Data types: This topic covers the use of all basic data types offered by Kotlin: `String`, `Integer`, `Double`,
+   `Boolean`, `Char`.
+6) Function in Kotlin: This topic covers the following key concepts: `Function in Kotlin`, `Function with Parameters`,
+   `Parameters vs Arguments`, `Function with return type`.
