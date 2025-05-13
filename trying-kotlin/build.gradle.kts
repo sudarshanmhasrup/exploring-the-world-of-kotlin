@@ -15,3 +15,5 @@ java {
 kotlin.compilerOptions {
     jvmTarget = JvmTarget.JVM_11
 }
+
+layout.buildDirectory.set(file("$rootDir/.build/tryingKotlin"))
