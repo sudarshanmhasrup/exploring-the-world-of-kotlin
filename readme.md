@@ -13,11 +13,13 @@ Kotlin as well as general programming languages.
    of variables.
 5) Data types: This topic covers the use of all basic data types offered by Kotlin: `String`, `Integer`, `Double`,
    `Boolean`, `Char`.
-6) Function in Kotlin: This topic covers the following key concepts: `Function in Kotlin`, `Function with Parameters`,
+6) String templates and template expressions: This topic covers how we can insert values of variables in a string in a
+   concise way.
+7) Function in Kotlin: This topic covers the following key concepts: `Function in Kotlin`, `Function with Parameters`,
    `Parameters vs. Arguments`, `Function with return type`, `Unit return type`.
-7) Block body vs. expression body: This topic covers how we can omit body of function if it only contains return
+8) Block body vs. expression body: This topic covers how we can omit the body of a function if it only contains a return
    expression.
-8) Conditionals in Kotlin: This topic covers how we can use `if-else` and `when` keywords to create conditionals in
+9) Conditionals in Kotlin: This topic covers how we can use `if-else` and `when` keywords to create conditionals in
    Kotlin and make decisions according to conditions.
-9) Conditionals as expression in Kotlin: This topic covers how we can use `if-else` and `when` keywords to initialize
-   variables based on conditions.
+10) Conditionals as expressions in Kotlin: This topic covers how we can use `if-else` and `when` keywords to initialize
+    variables based on conditions.
