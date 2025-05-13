@@ -2,7 +2,8 @@
 
 I created this module while learning the Kotlin programming language. Kotlin offers many cool features, some of which
 also exist in other programming languages and some of which don't. This module covers all the key concepts used in
-Kotlin as well as general programming languages.
+Kotlin as well as general programming languages. Note: I've created packages for each concept so you can explore only 
+concepts that you're interested in. You can refer following index to see what you can expect in this module:
 
 #### List of concepts
 
