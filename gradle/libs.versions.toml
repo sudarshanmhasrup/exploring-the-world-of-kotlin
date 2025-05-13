@@ -8,6 +8,9 @@ releaseVersion = "1.0.0-SNAPSHOT"
 # Trying Kotlin module information
 tryingKotlin-groupId = "com.trying.kotlin"
 
+# Practice solutions module information
+practiceSolutions-groupId = "com.practice.solutions"
+
 [libraries]
 
 [plugins]
