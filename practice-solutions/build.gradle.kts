@@ -8,7 +8,7 @@ group = libs.versions.practiceSolutions.groupId.get()
 version = libs.versions.releaseVersion.get()
 
 dependencies {
-
+    testImplementation(libs.kotlin.test)
 }
 
 tasks.test {
