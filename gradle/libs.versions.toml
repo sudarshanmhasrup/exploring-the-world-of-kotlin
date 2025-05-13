@@ -12,6 +12,7 @@ tryingKotlin-groupId = "com.trying.kotlin"
 practiceSolutions-groupId = "com.practice.solutions"
 
 [libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
