@@ -14,4 +14,6 @@ Kotlin as well as general programming languages.
 5) Data types: This topic covers the use of all basic data types offered by Kotlin: `String`, `Integer`, `Double`,
    `Boolean`, `Char`.
 6) Function in Kotlin: This topic covers the following key concepts: `Function in Kotlin`, `Function with Parameters`,
-   `Parameters vs Arguments`, `Function with return type`.
+   `Parameters vs Arguments`, `Function with return type`, `Unit return type`.
+7) Block body VS expression body: This topic covers how we can omit body of function if it only contains return
+ expression.
