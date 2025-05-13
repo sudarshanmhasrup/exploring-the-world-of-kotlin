@@ -16,4 +16,8 @@ Kotlin as well as general programming languages.
 6) Function in Kotlin: This topic covers the following key concepts: `Function in Kotlin`, `Function with Parameters`,
    `Parameters vs. Arguments`, `Function with return type`, `Unit return type`.
 7) Block body vs. expression body: This topic covers how we can omit body of function if it only contains return
- expression.
+   expression.
+8) Conditionals in Kotlin: This topic covers how we can use `if-else` and `when` keywords to create conditionals in
+   Kotlin and make decisions according to conditions.
+9) Conditionals as expression in Kotlin: This topic covers how we can use `if-else` and `when` keywords to initialize
+   variables based on conditions.
