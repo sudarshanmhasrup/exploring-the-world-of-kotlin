@@ -2,7 +2,7 @@
 
 I created this module while learning the Kotlin programming language. Kotlin offers many cool features, some of which
 also exist in other programming languages and some of which don't. This module covers all the key concepts used in
-Kotlin as well as general programming languages. Note: I've created packages for each concept so you can explore only 
+Kotlin as well as general programming languages. Note: I've created packages for each concept so you can explore only
 concepts that you're interested in. You can refer following index to see what you can expect in this module:
 
 #### List of concepts
@@ -24,3 +24,8 @@ concepts that you're interested in. You can refer following index to see what yo
    Kotlin and make decisions according to conditions.
 10) Conditionals as expressions in Kotlin: This topic covers how we can use `if-else` and `when` keywords to initialize
     variables based on conditions.
+
+### Thank you
+
+I’m not saying this is the best repo out there that demonstrates the use of Kotlin concepts, but if you found it helpful
+or think I’ve done a decent job, just drop a star—that’d mean a lot! Thank you so much for checking it out! 🙌
