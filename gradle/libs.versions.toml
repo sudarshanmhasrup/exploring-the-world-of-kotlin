@@ -11,6 +11,13 @@ tryingKotlin-groupId = "com.trying.kotlin"
 # Practice solutions module information
 practiceSolutions-groupId = "com.practice.solutions"
 
+# Android app package information
+androidApp-applicationId = "com.compose.android"
+androidApp-compileSdkVersion = "35"
+androidApp-targetSdkVersion = "35"
+androidApp-minSdkVersion = "30"
+androidApp-versionCode = "1"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
