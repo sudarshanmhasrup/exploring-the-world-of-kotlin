@@ -25,6 +25,9 @@ androidApp-versionName = "1.0.0-SNAPSHOT"
 # Android app module information
 androidApp-groupId = "com.compose.android"
 
+# Compose app module information
+composeApp-groupId = "com.compose.app"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
