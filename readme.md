@@ -1,3 +1,30 @@
+### About this repository
+
+I've truly fallen in love with Kotlin. Writing code in Kotlin has been way more enjoyable and
+satisfying than any other language I've worked with—whether it was Java, JavaScript, or anything
+else. The syntax is clean, the code is super readable, and it’s genuinely fun to work with. I used
+to build Android apps using Java, but ever since I discovered Kotlin, there’s been no turning back.
+
+Anyway, enough about my love for Kotlin! This repository contains all the Kotlin projects and source
+code I’ve created throughout my Kotlin journey. In this repository, you'll find great examples of
+using Kotlin for backend, Android, and multiplatform development. If you come across any errors or
+areas for improvement, I’d love to hear your feedback. Feel free to drop me an email
+at [sudarshanmhasrup@gmail.com](mailto:sudarshanmhasrup@gmail.com).
+
+### Project modules
+
+This project follows a modular structure to manage the entire source code. Although it can make the
+code harder to read and understand, it greatly simplifies maintaining the codebase. Below is a list
+of all the available modules in this project along with their respective uses.
+
+- `trying-kotlin`\ - This module contains the source code I created while learning the Kotlin
+  programming language.
+- `practice-solutions`\ - This module is dedicated to problem-solving in Kotlin. I created it
+  primarily to deepen my understanding of Kotlin syntax, programming concepts, and various
+  challenges.
+- `android-app`\ - This is a regular Android app module, which consumes Android framework-generated
+  by Kotlin Multiplatform.
+
 ### Trying Kotlin module
 
 I created this module while learning the Kotlin programming language. Kotlin offers many cool features, some of which
