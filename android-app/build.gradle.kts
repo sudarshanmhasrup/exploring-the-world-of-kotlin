@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.voyager.navigator)
     implementation(libs.core.splashscreen)
     implementation(libs.activity.compose)
     implementation(project(":compose-app"))
