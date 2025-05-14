@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 
 @Composable
-private fun BoxScope.SystemWindowGlass(
+internal fun BoxScope.SystemWindowGlass(
     height: Dp,
     alignment: Alignment,
     backgroundColor: Color,
