@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.application)
 }
 
 group = libs.versions.kotlinPlayground.group.get()
