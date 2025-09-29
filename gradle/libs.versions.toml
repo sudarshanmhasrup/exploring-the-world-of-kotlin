@@ -8,6 +8,7 @@ kotlinPlayground-version = "1.0.0"
 kotlinPlayground-mainClass = "com.kotlin.playground.PlaygroundKt"
 
 [libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 application = { id = "application" }
