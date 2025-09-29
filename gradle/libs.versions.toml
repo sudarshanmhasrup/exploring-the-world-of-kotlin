@@ -10,4 +10,5 @@ kotlinPlayground-mainClass = "com.kotlin.playground.PlaygroundKt"
 [libraries]
 
 [plugins]
+application = { id = "application" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
