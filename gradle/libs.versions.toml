@@ -7,6 +7,10 @@ kotlinPlayground-group = "com.kotlin.playground"
 kotlinPlayground-version = "1.0.0"
 kotlinPlayground-mainClass = "com.kotlin.playground.PlaygroundKt"
 
+# practice-solutions module's configuration information
+practiceSolutions-group = "com.practice.solutions"
+practiceSolutions-version = "1.0.0"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
