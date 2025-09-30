@@ -23,6 +23,12 @@ command to execute the tests.
   ./gradlew kotlin-playground:test
 ```
 
+### Practice solutions
+
+This module contains all the coding challenges I’ve solved using Kotlin. It starts with very basic programs, which I’ve
+included intentionally. I believe these small programs help you get familiar with the syntax and understanding of the
+language, and then you can gradually increase the challenge level after a certain point.
+
 ### Thank You 🙌
 
 I'm glad you checked out this repository. I understand the struggle of learning a new language or transitioning to
