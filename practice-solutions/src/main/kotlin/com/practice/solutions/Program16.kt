@@ -10,7 +10,6 @@ import com.practice.solutions.model.InputType
 import com.practice.solutions.util.UserInputManager
 import org.jetbrains.annotations.VisibleForTesting
 
-
 fun main() {
     getUserInputs { firstNumber, secondNumber ->
         displayOutput(firstNumber = firstNumber, secondNumber = secondNumber)
