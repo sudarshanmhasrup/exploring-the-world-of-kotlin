@@ -1,6 +1,7 @@
 [versions]
 # Library and plugins versions
 kotlin = "2.2.20"
+composeMultiplatform = "1.9.0"
 jetbrainsAnnotations = "26.0.2"
 
 # trying-kotlin module's configuration information
@@ -29,3 +30,4 @@ jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "j
 application = { id = "application" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
