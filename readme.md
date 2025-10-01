@@ -23,6 +23,16 @@ command to execute the tests.
   ./gradlew kotlin-playground:test
 ```
 
+### Trying Kotlin
+
+Kotlin is a modern, concise, and expressive language packed with helpful features that make coding more enjoyable and
+efficient. Its clean syntax allows you to write code that is concise, readable, and easy to maintain.
+
+This module lists essential Kotlin features with code snippets to help you get started or refresh your knowledge. For a
+deeper understanding, explore the [official Kotlin documentation](https://kotlinlang.org/docs/home.html).
+
+Here's the list of topics I've covered:
+
 ### Practice solutions
 
 This module contains all the coding challenges I’ve solved using Kotlin. It starts with very basic programs, which I’ve
