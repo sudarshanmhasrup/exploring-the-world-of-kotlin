@@ -31,6 +31,38 @@ language, and then you can gradually increase the challenge level after a certai
 
 1. Create a function that takes two numbers as arguments and returns their sum.
    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program1.kt)
+2. Write a function that takes an integer minute and converts it to seconds.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program2.kt)
+3. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program3.kt)
+4. Write a function that takes the base and height of a triangle and return its area.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program4.kt)
+5. Create a function that takes the age in years and returns the age in days.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program5.kt)
+6. Create a function that takes an array containing only numbers and return the first element.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program6.kt)
+7. Create a function that takes voltage and current and returns the calculated power.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program7.kt)
+8. Write a function that converts hours into seconds.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program8.kt)
+9. Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program9.kt)
+10. Create a function that returns the remainder of the division of two numbers.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program10.kt)
+11. Create a function that takes length and width and finds the perimeter of a rectangle.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program11.kt)
+12. Write a function that returns the string "something" joined with a space " " and the given argument a.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program12.kt)
+13. Create a function that takes a number as its only argument and returns true if it's less than or equal to zero,
+    otherwise return false.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program13.kt)
+14. Given an n-sided regular polygon n, return the total sum of internal angles (in degrees).
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program14.kt)
+15. You are counting points for a basketball game, given the number of 2-pointers scored and 3-pointers scored, find the
+    final points for the team and return that value.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program15.kt)
+16. Given two numbers, return true if the sum of both numbers is less than 100. Otherwise, return false.
+    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program16.kt)
 
 ### Thank You 🙌
 
