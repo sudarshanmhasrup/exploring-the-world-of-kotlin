@@ -1,5 +1,6 @@
 /*
-    Program: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+    Program: Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all
+    integers.
     Modified: True.
     Source: https://edabit.com/challenge/nhXofMMyrowMyr9Nv.
  */
