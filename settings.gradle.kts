@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 include(":trying-kotlin")
 include(":kotlin-playground")
+include(":compose-playground")
 include(":practice-solutions")
