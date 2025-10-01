@@ -23,6 +23,22 @@ command to execute the tests.
   ./gradlew kotlin-playground:test
 ```
 
+### Compose Playground
+
+This module serves as a playground for writing and running sample Compose code for testing and experimentation. It
+allows you to run code right in your IDE, making it easier to try out external libraries and explore Compose in a
+flexible environment.
+
+### Running the Playground
+
+Run the following Gradle command to start the playground. By default, Gradle runs
+[ComposePlayground.kt](/compose-playground/src/main/kotlin/com/compose/playground/ComposePlayground.kt) since it’s set
+as the main class.
+
+```shell
+  ./gradlew compose-playground:jvmRun
+```
+
 ### Trying Kotlin
 
 Kotlin is a modern, concise, and expressive language packed with helpful features that make coding more enjoyable and
