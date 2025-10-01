@@ -23,3 +23,4 @@ jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "j
 [plugins]
 application = { id = "application" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
