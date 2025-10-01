@@ -3,6 +3,10 @@
 kotlin = "2.2.20"
 jetbrainsAnnotations = "26.0.2"
 
+# trying-kotlin module's configuration information
+tryingKotlin-group = "com.trying.kotlin"
+tryingKotlin-version = "1.0.0"
+
 # kotlin-playground module's configuration information
 kotlinPlayground-group = "com.kotlin.playground"
 kotlinPlayground-version = "1.0.0"
