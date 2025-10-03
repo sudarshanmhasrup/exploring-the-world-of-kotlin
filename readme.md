@@ -49,6 +49,11 @@ deeper understanding, explore the [official Kotlin documentation](https://kotlin
 
 Here's the list of topics I've covered:
 
+1. Writing a basic `Hello World` program.
+2. Displaying output with `println()`.
+3. Printing multi-line text using triple quotes `""" """`.
+4. Writing single-line and multi-line comments.
+
 ### Practice solutions
 
 This module contains all the coding challenges I’ve solved using Kotlin. It starts with very basic programs, which I’ve
