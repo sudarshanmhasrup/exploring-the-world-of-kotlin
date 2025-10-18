@@ -6,6 +6,8 @@
 
 # Kotlin cache folder & files
 .kotlin
+kotlin-playground/src/main/kotlin/com/kotlin/playground/FunGround.kt
+kotlin-playground/src/test/kotlin/com/kotlin/playground/FunGroundTests.kt
 
 # Build output folder
 .build
