@@ -30,5 +30,9 @@ application {
     mainClass = libs.versions.kotlinPlayground.mainClass.get()
 }
 
+tasks.test {
+    useJUnitPlatform()
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/KotlinPlayground"))
