@@ -2,6 +2,11 @@
 # Library and plugin versions
 kotlin = "2.2.20"
 
+# kotlin-playground module's configuration information
+kotlinPlayground-group = "com.kotlin.playground"
+kotlinPlayground-version = "1.0.0"
+kotlinPlayground-mainClass = "com.kotlin.playground.PlaygroundKt"
+
 [libraries]
 
 [plugins]
