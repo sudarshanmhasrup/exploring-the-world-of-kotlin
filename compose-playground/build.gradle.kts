@@ -9,6 +9,12 @@ version = libs.versions.composePlayground.version.get()
 
 kotlin {
     jvm()
+
+    sourceSets {
+        jvmMain.dependencies {
+            implementation(compose.desktop.currentOs)
+        }
+    }
 }
 
 compose.desktop {
