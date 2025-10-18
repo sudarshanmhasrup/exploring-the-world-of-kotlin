@@ -36,5 +36,5 @@ Run the following Gradle command to start the playground. By default, Gradle run
 class.
 
 ```shell
-  ./gradlew compose-playground:jvmRun
+  ./gradlew compose-playground:run
 ```
