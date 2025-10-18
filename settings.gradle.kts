@@ -25,3 +25,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+include(":kotlin-playground")
