@@ -10,5 +10,11 @@ kotlin {
     jvm()
 }
 
+compose.desktop {
+    application {
+        mainClass = libs.versions.composePlayground.mainClass.get()
+    }
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/ComposePlayground"))
