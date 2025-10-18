@@ -1,6 +1,10 @@
 plugins {
+    alias(libs.plugins.kotlin.multiplatform)
+}
 
+kotlin {
+    jvm()
 }
 
 // Custom build directory
-layout.buildDirectory.set(file("$rootDi/.build/ComposePlayground"))
+layout.buildDirectory.set(file("$rootDir/.build/ComposePlayground"))
