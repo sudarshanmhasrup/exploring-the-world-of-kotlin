@@ -8,6 +8,7 @@ group = libs.versions.practiceSolutions.group.get()
 version = libs.versions.practiceSolutions.version.get()
 
 dependencies {
+    implementation(libs.jetbrains.annotations)
     testImplementation(libs.kotlin.test)
 }
 
