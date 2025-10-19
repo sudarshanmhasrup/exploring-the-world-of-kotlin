@@ -2,6 +2,7 @@
 # Library and plugin versions
 kotlin = "2.2.20"
 composeMultiplatform = "1.9.1"
+jetbrainsAnnotations = "26.0.2"
 
 # kotlin-playground module's configuration information
 kotlinPlayground-group = "com.kotlin.playground"
@@ -19,6 +20,7 @@ practiceSolutions-version = "1.0.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrainsAnnotations" }
 
 [plugins]
 application = { id = "application" }
