@@ -13,6 +13,10 @@ composePlayground-group = "com.compose.playground"
 composePlayground-version = "1.0.0"
 composePlayground-mainClass = "com.compose.playground.PlaygroundKt"
 
+# practice-solutions module's configuration information
+practiceSolutions-group = "com.practice.solutions"
+practiceSolutions-version = "1.0.0"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
