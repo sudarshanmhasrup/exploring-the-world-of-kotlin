@@ -29,7 +29,7 @@ This module serves as a playground for writing and running sample Compose code f
 allows you to run code right in your IDE, making it easier to try out external libraries and explore Compose in a
 flexible environment.
 
-### Running the Playground
+#### Running the Playground
 
 Run the following Gradle command to start the playground. By default, Gradle runs
 [Playground.kt](/compose-playground/src/jvmMain/kotlin/com/compose/playground/Playground.kt) since it’s set as the main
@@ -38,6 +38,12 @@ class.
 ```shell
   ./gradlew compose-playground:run
 ```
+
+### Practice Solutions
+
+This module contains all the coding challenges I’ve solved using Kotlin. It starts with very basic programs, which I’ve
+included intentionally. I believe these small programs help you get familiar with the syntax and understanding of the
+language, and then you can gradually increase the challenge level after a certain point.
 
 ### Thank You 🙌
 
