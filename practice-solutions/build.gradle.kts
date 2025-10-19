@@ -1,5 +1,5 @@
 plugins {
-
+    alias(libs.plugins.kotlin.jvm)
 }
 
 group = libs.versions.practiceSolutions.group.get()
