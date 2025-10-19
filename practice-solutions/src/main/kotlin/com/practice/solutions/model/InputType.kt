@@ -1,6 +1,6 @@
 package com.practice.solutions.model
 
-enum class InputType {
+internal enum class InputType {
     String,
     Integer
 }
