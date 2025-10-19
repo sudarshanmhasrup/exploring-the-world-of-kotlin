@@ -47,6 +47,8 @@ language, and then you can gradually increase the challenge level after a certai
 
 1. Create a function that takes two numbers as arguments and returns their sum.
    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program1.kt)
+2. Write a function that takes an integer minute and converts it to seconds.
+   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program2.kt)
 
 ### Thank You 🙌
 
