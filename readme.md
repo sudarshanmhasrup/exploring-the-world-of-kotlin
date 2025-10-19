@@ -47,7 +47,7 @@ language, and then you can gradually increase the challenge level after a certai
 
 1. Create a function that takes two numbers as arguments and returns their sum.
    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program1.kt)
-2. 
+
 ### Thank You 🙌
 
 I'm glad you checked out this repository. I understand the struggle of learning a new language or transitioning to
