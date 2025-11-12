@@ -1,7 +1,7 @@
 [versions]
 # Library and plugin versions
 kotlin = "2.2.20"
-composeMultiplatform = "1.9.1"
+composeMultiplatform = "1.9.3"
 jetbrainsAnnotations = "26.0.2"
 
 # kotlin-playground module's configuration information
