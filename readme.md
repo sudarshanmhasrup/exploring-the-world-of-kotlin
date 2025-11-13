@@ -39,6 +39,16 @@ class.
 ./gradlew compose-playground:run
 ```
 
+### Trying Kotlin
+
+Kotlin is a modern, concise, and expressive language packed with helpful features that make coding more enjoyable and
+efficient. Its clean syntax allows you to write code that is concise, readable, and easy to maintain.
+
+This module lists essential Kotlin features with code snippets to help you get started or refresh your knowledge. For a
+deeper understanding, explore the [official Kotlin documentation](https://kotlinlang.org/docs/home.html).
+
+Here's the list of topics I've covered:
+
 ### Practice Solutions
 
 This module contains all the coding challenges I’ve solved using Kotlin. It starts with very basic programs, which I’ve
@@ -51,7 +61,6 @@ language, and then you can gradually increase the challenge level after a certai
    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program2.kt)
 3. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
    [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program3.kt)
-
 
 ### Thank You 🙌
 
