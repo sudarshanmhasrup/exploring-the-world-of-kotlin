@@ -11,7 +11,7 @@ Run the following Gradle command to start the playground. By default, Gradle run
 class.
 
 ```shell
-  ./gradlew kotlin-playground:run
+./gradlew kotlin-playground:run
 ```
 
 #### Running the Tests
@@ -20,7 +20,7 @@ The tests are located in the `src/test` directory under the `com.kotlin.playgrou
 command to execute the tests.
 
 ```shell
-  ./gradlew kotlin-playground:test
+./gradlew kotlin-playground:test
 ```
 
 ### Compose Playground
@@ -36,7 +36,7 @@ Run the following Gradle command to start the playground. By default, Gradle run
 class.
 
 ```shell
-  ./gradlew compose-playground:run
+./gradlew compose-playground:run
 ```
 
 ### Practice Solutions
