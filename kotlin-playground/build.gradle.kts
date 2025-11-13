@@ -35,4 +35,4 @@ tasks.test {
 }
 
 // Custom build directory
-layout.buildDirectory.set(file("$rootDir/.build/KotlinPlayground"))
+layout.buildDirectory.set(file("$rootDir/.build/kotlin-playground"))
