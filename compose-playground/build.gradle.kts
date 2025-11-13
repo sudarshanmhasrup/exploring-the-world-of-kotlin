@@ -8,10 +8,11 @@ group = libs.versions.composePlayground.group.get()
 version = libs.versions.composePlayground.version.get()
 
 kotlin {
-    jvm()
+    jvm("desktop")
 
     sourceSets {
-        jvmMain.dependencies {
+        val desktopMain by getting
+        desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
         }
     }
