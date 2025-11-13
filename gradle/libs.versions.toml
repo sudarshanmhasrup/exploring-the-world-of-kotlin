@@ -14,6 +14,10 @@ composePlayground-group = "com.compose.playground"
 composePlayground-version = "1.0.0"
 composePlayground-mainClass = "com.compose.playground.PlaygroundKt"
 
+# trying-kotlin module's configuration information
+tryingKotlin-group = "com.trying.kotlin"
+tryingKotlin-version = "1.0.0"
+
 # practice-solutions module's configuration information
 practiceSolutions-group = "com.practice.solutions"
 practiceSolutions-version = "1.0.0"
