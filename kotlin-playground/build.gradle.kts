@@ -8,10 +8,6 @@ plugins {
 group = libs.versions.kotlinPlayground.group.get()
 version = libs.versions.kotlinPlayground.version.get()
 
-dependencies {
-    testImplementation(libs.kotlin.test)
-}
-
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of("21")
@@ -24,6 +20,10 @@ kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_21)
     }
+}
+
+dependencies {
+    testImplementation(libs.kotlin.test)
 }
 
 application {
