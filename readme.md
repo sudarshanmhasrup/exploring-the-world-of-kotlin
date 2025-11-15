@@ -39,6 +39,13 @@ main class.
 ./gradlew compose-playground:run
 ```
 
+or run the following command to run the playground using 
+[Compose Hot Reload](https://github.com/JetBrains/compose-hot-reload).
+
+```shell
+./gradlew compose-playground:hotRunDesktop
+```
+
 ### Trying Kotlin
 
 Kotlin is a modern, concise, and expressive language packed with helpful features that make coding more enjoyable and
