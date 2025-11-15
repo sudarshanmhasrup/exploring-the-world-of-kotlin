@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.compose.multiplatform)
@@ -8,7 +10,19 @@ group = libs.versions.composePlayground.group.get()
 version = libs.versions.composePlayground.version.get()
 
 kotlin {
-    jvm("desktop")
+    jvm("desktop") {
+        java {
+            toolchain {
+                languageVersion = JavaLanguageVersion.of("21")
+            }
+            sourceCompatibility = JavaVersion.VERSION_21
+            targetCompatibility = JavaVersion.VERSION_21
+        }
+
+        compilerOptions {
+            jvmTarget = JvmTarget.JVM_21
+        }
+    }
 
     sourceSets {
         val desktopMain by getting
