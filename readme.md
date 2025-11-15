@@ -32,8 +32,8 @@ flexible environment.
 #### Running the Playground
 
 Run the following Gradle command to start the playground. By default, Gradle runs
-[Playground.kt](/compose-playground/src/jvmMain/kotlin/com/compose/playground/Playground.kt) since it’s set as the main
-class.
+[Playground.kt](/compose-playground/src/desktopMain/kotlin/com/compose/playground/Playground.kt) since it’s set as the
+main class.
 
 ```shell
 ./gradlew compose-playground:run
