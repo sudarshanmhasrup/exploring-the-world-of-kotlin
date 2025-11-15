@@ -13,6 +13,8 @@ kotlinPlayground-mainClass = "com.kotlin.playground.PlaygroundKt"
 composePlayground-group = "com.compose.playground"
 composePlayground-version = "1.0.0"
 composePlayground-mainClass = "com.compose.playground.PlaygroundKt"
+composePlayground-distributionPackageName = "Compose Playground"
+composePlayground-distributionPackageVersion = "1.0.0"
 
 # trying-kotlin module's configuration information
 tryingKotlin-group = "com.trying.kotlin"
