@@ -1,3 +1,4 @@
+import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -35,6 +36,12 @@ kotlin {
 compose.desktop {
     application {
         mainClass = libs.versions.composePlayground.mainClass.get()
+
+        nativeDistributions {
+            targetFormats = setOf(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            packageName = libs.versions.composePlayground.distributionPackageName.get()
+            packageVersion = libs.versions.composePlayground.distributionPackageVersion.get()
+        }
     }
 }
 
