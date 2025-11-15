@@ -7,11 +7,6 @@ plugins {
 group = libs.versions.practiceSolutions.group.get()
 version = libs.versions.practiceSolutions.version.get()
 
-dependencies {
-    implementation(libs.jetbrains.annotations)
-    testImplementation(libs.kotlin.test)
-}
-
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of("21")
@@ -24,6 +19,11 @@ kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_21)
     }
+}
+
+dependencies {
+    implementation(libs.jetbrains.annotations)
+    testImplementation(libs.kotlin.test)
 }
 
 tasks.test {
