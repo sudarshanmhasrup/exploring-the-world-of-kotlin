@@ -1,3 +1,5 @@
+[![Kotlin](https://img.shields.io/badge/kotlin-2.2.21-blue.svg?logo=kotlin&logoColor=white)](http://kotlinlang.org)
+
 ### Kotlin Playground
 
 This module serves as a playground for writing and running sample Kotlin code for testing and experimentation. Inspired
