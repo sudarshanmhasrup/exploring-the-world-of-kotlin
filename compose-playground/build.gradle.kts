@@ -46,4 +46,4 @@ compose.desktop {
 }
 
 // Custom build directory
-layout.buildDirectory.set(file("$rootDir/.build/ComposePlayground"))
+layout.buildDirectory.set(file("$rootDir/.build/compose-playground"))
