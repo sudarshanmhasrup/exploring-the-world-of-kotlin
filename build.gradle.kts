@@ -6,4 +6,4 @@ plugins {
 }
 
 // Custom build directory
-layout.buildDirectory.set(file(".build/RootProject"))
+layout.buildDirectory.set(file(".build/project"))
