@@ -58,9 +58,11 @@ deeper understanding, explore the [official Kotlin documentation](https://kotlin
 
 Here's the list of topics I've covered:
 
-1. Defining a Package in a Kotlin Source File
-2. Importing a Package in Kotlin.
-3. Customizing Package Imports in Kotlin.
+1. Defining a Package in a Kotlin Source File.
+2. Importing a Package.
+3. Customizing Package Imports.
+4. The Entry Point of a Program.
+5. Main Function with Arguments.
 
 ### Practice Solutions
 
