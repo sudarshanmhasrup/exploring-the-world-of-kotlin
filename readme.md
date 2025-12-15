@@ -59,17 +59,17 @@ deeper understanding, explore the [official Kotlin documentation](https://kotlin
 Here's the list of topics I've covered:
 
 1. Defining a Package in a Kotlin Source File.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageDefinition.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageDefinition.kt)
 2. Importing a Package.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageImporting.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageImporting.kt)
 3. Customizing Package Imports.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/CustomizePackageImports.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/CustomizePackageImports.kt)
 4. The Entry Point of a Program.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPoint.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPoint.kt)
 5. Main Function with Arguments.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPointWithArguments.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPointWithArguments.kt)
 6. Displaying a Message with `println()` Function.
-   [View program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/DisplayMessage.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/DisplayMessage.kt)
 
 ### Practice Solutions
 
@@ -78,13 +78,13 @@ included intentionally. I believe these small programs help you get familiar wit
 language, and then you can gradually increase the challenge level after a certain point.
 
 1. Create a function that takes two numbers as arguments and returns their sum.
-   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program1.kt)
+   [View Solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program1.kt)
 2. Write a function that takes an integer minute and converts it to seconds.
-   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program2.kt)
+   [View Solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program2.kt)
 3. Create a function that takes a number as an argument, increments the number by +1, and returns the result.
-   [View solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program3.kt)
+   [View Solution](/practice-solutions/src/main/kotlin/com/practice/solutions/Program3.kt)
 
-### Thank You 🙌
+### Thank You! 🙌
 
 I'm glad you checked out this repository. I understand the struggle of learning a new language or transitioning to
 another one. I've been there. But believe me: you’ll soon start loving Kotlin more than anything.
