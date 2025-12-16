@@ -35,7 +35,12 @@ dependencyResolutionManagement {
     }
 }
 
-include(":kotlin-playground")
-include(":compose-playground")
+// Playground modules
+val playgroundModules = setOf("kotlin", "compose")
+playgroundModules.forEach { module ->
+    include(":$module-playground")
+}
+
+// Other modules
 include(":trying-kotlin")
 include(":practice-solutions")
