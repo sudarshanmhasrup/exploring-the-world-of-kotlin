@@ -42,5 +42,7 @@ playgroundModules.forEach { module ->
 }
 
 // Other modules
-include(":trying-kotlin")
-include(":practice-solutions")
+val otherModules = setOf("trying-kotlin", "practice-solutions")
+otherModules.forEach { module ->
+    include(":$module")
+}
