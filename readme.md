@@ -1,4 +1,5 @@
 [![Kotlin](https://img.shields.io/badge/kotlin-2.3.0-blue.svg?logo=kotlin&logoColor=white)](http://kotlinlang.org)
+[![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-1.9.1-4285F4?style=flat&logo=jetpackcompose&logoColor=white)](https://www.jetbrains.com/compose-multiplatform/)
 
 ### Kotlin Playground
 
