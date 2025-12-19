@@ -1,4 +1,4 @@
-[![Kotlin](https://img.shields.io/badge/kotlin-2.2.21-blue.svg?logo=kotlin&logoColor=white)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/kotlin-2.3.0-blue.svg?logo=kotlin&logoColor=white)](http://kotlinlang.org)
 
 ### Kotlin Playground
 

@@ -1,6 +1,6 @@
 [versions]
 # Library and plugin versions
-kotlin = "2.2.20"
+kotlin = "2.3.0"
 composeMultiplatform = "1.10.0-beta01"
 jetbrainsAnnotations = "26.0.2"
 
