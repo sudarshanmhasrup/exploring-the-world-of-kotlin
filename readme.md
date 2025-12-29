@@ -73,6 +73,8 @@ Here's the list of topics I've covered:
    [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/DisplayMessage.kt)
 7. Writing `single-line` and `multi-line` Comments.
    [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/Comments.kt)
+8. Reading User Input with `readln()` Function.
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/ReadInput.kt)
 
 ### Practice Solutions
 
