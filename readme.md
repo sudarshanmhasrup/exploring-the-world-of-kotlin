@@ -71,6 +71,8 @@ Here's the list of topics I've covered:
    [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPointWithArguments.kt)
 6. Displaying a Message with `println()` Function.
    [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/DisplayMessage.kt)
+7. Writing `single-line` and `multi-line` Comments.
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/Comments.kt)
 
 ### Practice Solutions
 
