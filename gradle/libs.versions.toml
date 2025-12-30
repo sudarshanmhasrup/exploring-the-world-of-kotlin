@@ -1,8 +1,9 @@
 [versions]
 # Library and plugin versions
 kotlin = "2.3.0"
-composeMultiplatform = "1.10.0-beta01"
+coroutines = "1.10.1"
 jetbrainsAnnotations = "26.0.2"
+composeMultiplatform = "1.10.0-beta01"
 
 # kotlin-playground module's configuration information
 kotlinPlayground-group = "com.kotlin.playground"
@@ -26,6 +27,7 @@ practiceSolutions-version = "1.0.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+couroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrainsAnnotations" }
 
 [plugins]
