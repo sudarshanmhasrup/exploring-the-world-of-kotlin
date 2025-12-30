@@ -23,6 +23,7 @@ kotlin {
 }
 
 dependencies {
+    implementation(libs.couroutines)
     testImplementation(libs.kotlin.test)
 }
 
