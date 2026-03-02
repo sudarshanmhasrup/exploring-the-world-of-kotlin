@@ -60,11 +60,11 @@ deeper understanding, explore the [official Kotlin documentation](https://kotlin
 Here's the list of topics I've covered:
 
 1. Defining a Package in a Kotlin Source File.
-   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageDefinition.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/packages/PackageDefinition.kt)
 2. Importing a Package.
-   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/PackageImporting.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/packages/PackageImporting.kt)
 3. Customizing Package Imports.
-   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/CustomizePackageImports.kt)
+   [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/packages/CustomizePackageImports.kt)
 4. The Entry Point of a Program.
    [View Program](/trying-kotlin/src/main/kotlin/com/trying/kotlin/overview/EntryPoint.kt)
 5. Main Function with Arguments.
