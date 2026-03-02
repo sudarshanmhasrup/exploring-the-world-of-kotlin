@@ -1,5 +1,5 @@
-[![Kotlin](https://img.shields.io/badge/kotlin-2.3.0-blue.svg?logo=kotlin&logoColor=white)](http://kotlinlang.org)
-[![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-1.10.0_rc02-4285F4?style=flat&logo=jetpackcompose&logoColor=white)](https://www.jetbrains.com/compose-multiplatform/)
+[![Kotlin](https://img.shields.io/badge/kotlin-2.3.0-blue.svg?logo=kotlin&logoColor=original)](http://kotlinlang.org)
+[![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-1.10.0_rc02-4285F4?style=flat&logo=jetpackcompose&logoColor=original)](https://www.jetbrains.com/compose-multiplatform/)
 
 ### Kotlin Playground
 
@@ -95,5 +95,4 @@ I'm glad you checked out this repository. I understand the struggle of learning 
 another one. I've been there. But believe me: you’ll soon start loving Kotlin more than anything.
 
 When I first started programming, I loved Java and JavaScript. I never imagined that Kotlin would replace them for me,
-but here I am. Now, all other languages feel awkward to me. All the best, and welcome to the world of Kotlin. And thank
-you so much for checking out this repository.
+but here I am. Now, all other languages feel awkward to me. All the best, and welcome to the world of Kotlin!
